@@ -25,7 +25,7 @@ The project provides a tool for virtual soccer teams founders to find players ri
 
 ### Mission
 
-The project enables users to search for players needed for their teams based on different evaluations of input attributes, such as 
+The project enables users to search for players needed for their teams based on different evaluations of input attributes, such as age, weight
 
 The project produces similar player recommendations based on user entries and past searching histories.
 
@@ -47,6 +47,9 @@ The project produces similar player recommendations based on user entries and pa
 
 
 ### Project Timeline
+##Exploratory Data Analysis#
+Data Cleaning
+Model Building
 ### Web APP Design
 
 ## Repo structure 
@@ -174,7 +177,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjkyMzA3MSwtODg1MTk0MzYsNTU0ND
+eyJoaXN0b3J5IjpbMjA5MTEyMzY5NCwtODg1MTk0MzYsNTU0ND
 c0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUs
 NTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0MCwtMTQyMz
 kyNTE0NF19
