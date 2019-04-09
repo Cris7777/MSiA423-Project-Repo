@@ -19,7 +19,7 @@
 
 ## Project Charter 
 
-**Vision**: To predict player scores based on different attributes and enable users find players right for their virtual soccer teams. 
+**Vision**: The project provides a tool  To predict player scores based on different attributes and enable users find players right for their virtual soccer teams. 
 
 **Mission**: Enable users to search for players needed for their teams and produce similar player recommendations based on their entries.
 
@@ -160,6 +160,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
-gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbMzg0MDQwNzE4LDMyODA5MDgyNSw1OTM3MT
+g4NDIsLTExNDA4MDkxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0
+XX0=
 -->
