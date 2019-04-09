@@ -60,6 +60,8 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 - Model Building
 
+Fit multiple
+
 **Week 3-8: APP Building**
 
 Building pipelines and web APP.
@@ -70,9 +72,10 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLT
-IyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1
-MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMT
-c1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5
-MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbLTE1OTYwMDUxNzcsLTE0MzMxMDY4MzgsLT
+E0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3
+NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LD
+E1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4
+ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF
+19
 -->
