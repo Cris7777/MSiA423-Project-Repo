@@ -23,7 +23,9 @@
 **Mission**: Enable users to search for players needed for their teams and produce similar player recommendations based on their entries.
 
 **Success criteria** 
+
 *ML Metric*： Classified players with misclassification rate lower than 0.2. 
+
 *Business Metric*: Over 80% of users select recommended players as members of their teams.
 
 
