@@ -25,9 +25,9 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 ### Mission
 
-The project enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
+- The project enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
-The project produces recommendations of players with predicted scores according to different positions.
+- The project produces recommendations of players with predicted scores according to different positions.
 
 ### Success criteria 
 
@@ -55,13 +55,11 @@ The project produces recommendations of players with predicted scores according 
 
 Exploratory Data Analysis
 
-
+Overview of Data
 
 The dataset is from Kaggle, containing information on over 18,000 players.
 
 Data Cleaning
-
- 
 
 *Model Building*
 
@@ -198,9 +196,9 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQyNjA3ODksLTIyOTA4OTE1MSwxNz
-g4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0
-MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMj
-gwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0
-MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbLTMxNDE0OTU3LC0yMjkwODkxNTEsMTc4OD
+c5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2
+LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4MD
+kwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMzg1NDAs
+LTE0MjM5MjUxNDRdfQ==
 -->
