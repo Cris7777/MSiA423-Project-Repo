@@ -19,11 +19,11 @@
 
 ## Project Charter 
 
-**Vision**: 
+### Vision
 
 The project provides a tool for virtual soccer teams founders to find players right for their teams.
 
-**Mission**: 
+### Mission
 
 The project enables users to search for players needed for their teams based on different evaluations of input attributes and produce similar player recommendations based on their entries.
 
@@ -43,7 +43,7 @@ The project enables users to search for players needed for their teams based on 
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
 
 ## Project Backlog
-
+### project timeling
 
 ## Repo structure 
 
@@ -170,7 +170,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTk0NTI3LDE1NzAxMzU5MTIsMTc1OD
-EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
-LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbLTM4NjgyNDMwMiwxNTcwMTM1OTEyLDE3NT
+gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
+Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
