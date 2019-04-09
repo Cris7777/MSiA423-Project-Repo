@@ -27,15 +27,13 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 The project enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
-The project produces recommendations of players with predicted scores according to diff
+The project produces recommendations of players with predicted scores according to different positions.
 
 ### Success criteria 
 
 **ML Metric**: 
 
 - Predict player scores with Mean Squared Error of  lower than 10. 
-
-- Recommend players with 
 
 **Business Metric**: 
 
@@ -194,7 +192,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjIzMjk4NSwxNTE5NzY3MDQ0LC05OD
+eyJoaXN0b3J5IjpbLTg3MzE1MzA1OCwxNTE5NzY3MDQ0LC05OD
 I1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEy
 LDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
 gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
