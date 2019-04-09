@@ -18,7 +18,7 @@
 
 ## Project Charter 
 
-**Vision**: To enable users find players right for their vitrual soccer teams. 
+**Vision**: To enable users find players right for their virtual soccer teams. 
 
 **Mission**: Enable users to search for players needed for their teams and produce similar player recommendations based on their entries.
 
@@ -158,5 +158,5 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
 -->
