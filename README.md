@@ -48,13 +48,16 @@ The project produces similar player recommendations based on user entries and pa
 ### Epics
 
 ### Project Timeline
-building pipelines
+
+Week 1-2
 
 **Exploratory Data Analysis**
 
 **Data Cleaning**
 
 **Model Building**
+
+Week 
 
 ### Web APP Design
 
@@ -183,8 +186,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04OD
-UxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIzMzk3
-LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5Mz
-M4NTQwLC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbLTIwNzgyMjQxMjUsMTUxOTc2NzA0NCwtOT
+gyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkx
+MiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExND
+A4MDkxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
 -->
