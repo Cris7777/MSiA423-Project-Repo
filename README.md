@@ -53,6 +53,7 @@ The project provides a tool for virtual soccer teams founders to estimate scores
   * Data Cleaning
       
       + NAs Removing
+      + Duplicates Removing
       + Outliers Removing
 
 
@@ -69,9 +70,9 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTc2NTA4LC0xNDk5NjM3MTQ2LC0yMj
-kwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2
-MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NT
-gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
-Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLT
+IyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1
+MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMT
+c1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5
+MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
