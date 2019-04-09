@@ -33,9 +33,9 @@ The project produces similar player recommendations based on user entries and pa
 
 **ML Metric**: 
 
-- Predict player scores with MSE lower than 10. 
+- Predict player scores with Mean Squared Error of  lower than 10. 
 
-- Recommend
+- Recommend 
 
 **Business Metric**: 
 
@@ -45,7 +45,9 @@ The project produces similar player recommendations based on user entries and pa
 
 ## Project Backlog
 
-### Epics
+### Project Themes
+
+### Project Epics
 
 ### Project Timeline
 
@@ -57,7 +59,11 @@ Week 1-2
 
 **Model Building**
 
-Week 
+Week 3-6
+
+Week 7-9
+
+Week 10
 
 ### Web APP Design
 
@@ -186,7 +192,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzgyMjQxMjUsMTUxOTc2NzA0NCwtOT
+eyJoaXN0b3J5IjpbLTIxMzQ1OTQ3NzgsMTUxOTc2NzA0NCwtOT
 gyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkx
 MiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExND
 A4MDkxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
