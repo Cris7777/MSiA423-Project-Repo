@@ -25,7 +25,7 @@
 
 **Success criteria** 
 
-*ML Metric*: Classified players with misclassification rate lower than 0.2. 
+*ML Metric*: Predict player scores with MSE lower than 10. 
 
 *Business Metric*: Over 80% of users select recommended players as members of their teams.
 
@@ -33,6 +33,7 @@
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
 
 ## Project Backlog
+
 
 ## Repo structure 
 
@@ -159,6 +160,6 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OT
-MzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
+gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
