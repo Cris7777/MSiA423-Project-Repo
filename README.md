@@ -3,6 +3,7 @@
 <!-- toc -->
 
 - [Project Charter](#project-charter)
+- Project Backlog
 - [Repo structure](#repo-structure)
 - [Documentation](#documentation)
 - [Running the application](#running-the-application)
@@ -158,6 +159,6 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA4MDkxOTcsNzk5MzM4NTQwLC0xND
-IzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbMTQzNjU5Njk5OCwtMTE0MDgwOTE5Nyw3OT
+kzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
