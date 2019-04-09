@@ -21,7 +21,7 @@
 
 ### Vision
 
-The project provides a tool for virtual soccer teams founders to estimate scores of players for their teams.
+The project provides a tool for virtual soccer teams founders to estimate scores of players in their teams.
 
 ### Mission
 
@@ -55,13 +55,11 @@ The project enables users to predict overall scores for platers in their teams b
 
 - Model Building
 
-**Week 3-6**
+**Week 3-8**
+Building pipelines and web app.
 
-**Week 7-9**
-
-**Week 10**
-
-### Web APP Design
+**Week 9-10**
+Testing web APP
 
 ## Repo structure 
 
@@ -188,8 +186,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI4NzY1NjEsMTUxOTc2NzA0NCwtOT
-gyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkx
-MiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExND
-A4MDkxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbMTc0MTM3ODk0NiwxNTE5NzY3MDQ0LC05OD
+I1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEy
+LDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
+gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
