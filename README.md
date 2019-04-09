@@ -47,6 +47,7 @@ The project produces similar player recommendations based on user entries and pa
 
 
 ### Project Timeline
+building pipelines
 
 **Exploratory Data Analysis**
 
@@ -181,8 +182,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNzU4NDU0LC05ODI1NTE2MjQsLTg4NT
-E5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcs
-MzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMz
-g1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzc5NjMyOTcsLTk4MjU1MTYyNCwtOD
+g1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5
+NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OT
+MzODU0MCwtMTQyMzkyNTE0NF19
 -->
