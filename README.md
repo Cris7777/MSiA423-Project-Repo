@@ -35,6 +35,8 @@ The project produces similar player recommendations based on user entries.
 
 - Predict player scores with MSE lower than 10. 
 
+- Recommend
+
 **Business Metric**: 
 
 - Over 80% of users select recommended players as members of their teams.
@@ -170,7 +172,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMT
-M1OTEyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0Miwt
-MTE0MDgwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbMjA5MzU3Njc1MSwtODg1MTk0MzYsNTU0ND
+c0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUs
+NTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0MCwtMTQyMz
+kyNTE0NF19
 -->
