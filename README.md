@@ -21,14 +21,13 @@
 
 ### Vision
 
-The project provides a tool for virtual soccer teams founders to estimate scores of players in their teams.
-
-The team provides recommendations of players with the predicted scores.
+The project provides a tool for virtual soccer teams founders to estimate scores of players in their teams, as well as to find players right for their teams.
 
 ### Mission
 
-The project enables users to predict overall scores for platers in their teams based on combinations on different input attributes, which includes: age, weight, strength, etc.
+The project enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, etc.
 
+The project 
 ### Success criteria 
 
 **ML Metric**: 
@@ -194,8 +193,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMjQzMjQsMTUxOTc2NzA0NCwtOTgyNT
-UxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwx
-NzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MD
-kxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbNTg1OTUzMzk3LDE1MTk3NjcwNDQsLTk4Mj
+U1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIs
+MTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwOD
+A5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
