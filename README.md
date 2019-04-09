@@ -29,9 +29,13 @@ Enable users to search for players needed for their teams and produce similar pl
 
 **Success criteria** 
 
-*ML Metric*: Predict player scores with MSE lower than 10. 
+*ML Metric*: 
 
-*Business Metric*: Over 80% of users select recommended players as members of their teams.
+Predict player scores with MSE lower than 10. 
+
+*Business Metric*: 
+
+Over 80% of users select recommended players as members of their teams.
 
 
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
@@ -164,7 +168,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDEzNTkxMiwxNzU4MTIzMzk3LDMyOD
-A5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5MzM4NTQw
-LC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbOTgxMzQ4NDU2LDE1NzAxMzU5MTIsMTc1OD
+EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
+LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
