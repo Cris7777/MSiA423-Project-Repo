@@ -56,10 +56,10 @@ The project enables users to predict overall scores for platers in their teams b
 - Model Building
 
 **Week 3-8**
-Building pipelines and web app.
+Building pipelines and web APP.
 
 **Week 9-10**
-Testing web APP
+Testing web APP, 
 
 ## Repo structure 
 
@@ -186,8 +186,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTM3ODk0NiwxNTE5NzY3MDQ0LC05OD
-I1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEy
-LDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
-gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbNzQ2MDQ0MjcwLDE1MTk3NjcwNDQsLTk4Mj
+U1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIs
+MTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwOD
+A5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
