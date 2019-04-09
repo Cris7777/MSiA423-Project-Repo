@@ -50,11 +50,11 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
     The dataset is from Kaggle, containing information on over 18,000 players.
 
-Data Cleaning
+  * Data Cleaning
 
 
 
-*Model Building*
+- Model Building
 
 **Week 3-8: APP Building**
 
@@ -66,7 +66,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNjUyOTk2LC0xNDk5NjM3MTQ2LC0yMj
+eyJoaXN0b3J5IjpbMjc0NzY4MDgxLC0xNDk5NjM3MTQ2LC0yMj
 kwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2
 MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NT
 gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
