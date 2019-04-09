@@ -27,23 +27,20 @@ The project provides a tool for virtual soccer teams founders to find players ri
 
 The project enables users to search for players needed for their teams based on different evaluations of input attributes and produce similar player recommendations based on their entries.
 
-**Success criteria** 
+### Success criteria 
 
-*ML Metric*: 
+**ML Metric**: 
 
 1. Predict player scores with MSE lower than 10. 
 
-*Business Metric*: 
+**Business Metric**: 
 
 1. Over 80% of users select recommended players as members of their teams.
 
 2. Payed service and advertisements generate a yearly revenue of no less than $100,000.
 
-
-_Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
-
 ## Project Backlog
-### project timeling
+### project timeline
 
 ## Repo structure 
 
@@ -170,7 +167,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjgyNDMwMiwxNTcwMTM1OTEyLDE3NT
-gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
-Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbNTY2MjgzNjI2LDE1NzAxMzU5MTIsMTc1OD
+EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
+LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
