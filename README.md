@@ -21,7 +21,7 @@
 
 ### Vision
 
-The project provides a tool for virtual soccer teams founders to find players right for their teams.
+The project provides a tool for virtual soccer teams founders to estimate players scores for their teams.
 
 ### Mission
 
@@ -181,7 +181,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDg3OTUyLC05ODI1NTE2MjQsLTg4NT
+eyJoaXN0b3J5IjpbNzIzNzU4NDU0LC05ODI1NTE2MjQsLTg4NT
 E5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcs
 MzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMz
 g1NDAsLTE0MjM5MjUxNDRdfQ==
