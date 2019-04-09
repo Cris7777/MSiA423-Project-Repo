@@ -53,12 +53,15 @@ The project produces recommendations of players with predicted scores according 
 
 **Week 1-2: Data Processing**
 
-*Exploratory Data Analysis*
+Exploratory Data Analysis
 
-  The dataset is from Kaggle, containing information on over 18,000 players.
 
-*Data Cleaning*
 
+The dataset is from Kaggle, containing information on over 18,000 players.
+
+Data Cleaning
+
+ 
 
 *Model Building*
 
@@ -195,7 +198,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0NzM0ODksLTIyOTA4OTE1MSwxNz
+eyJoaXN0b3J5IjpbLTEzMDQyNjA3ODksLTIyOTA4OTE1MSwxNz
 g4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0
 MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMj
 gwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0
