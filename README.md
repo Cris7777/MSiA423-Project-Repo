@@ -25,19 +25,19 @@ The project provides a tool for virtual soccer teams founders to find players ri
 
 **Mission**: 
 
-The projec users to search for players needed for their teams and produce similar player recommendations based on their entries.
+The project enables users to search for players needed for their teams based on different evaluations of input attributes and produce similar player recommendations based on their entries.
 
 **Success criteria** 
 
 *ML Metric*: 
 
-Predict player scores with MSE lower than 10. 
+1. Predict player scores with MSE lower than 10. 
 
 *Business Metric*: 
 
-Over 80% of users select recommended players as members of their teams.
+1. Over 80% of users select recommended players as members of their teams.
 
-Payed service and advertisements generate a yearly revenue of no less than $100,000.
+2. Payed service and advertisements generate a yearly revenue of no less than $100,000.
 
 
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
@@ -170,7 +170,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjE0NTQyMSwxNTcwMTM1OTEyLDE3NT
-gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
-Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbODQzNTk0NTI3LDE1NzAxMzU5MTIsMTc1OD
+EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
+LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
