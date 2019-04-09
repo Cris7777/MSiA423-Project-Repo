@@ -45,6 +45,8 @@ The project enables users to predict overall scores for platers in their teams b
 
 ### Project Epics
 
+**User Interface 1**
+
 ### Project Timeline
 
 **Week 1-2**
@@ -188,8 +190,8 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxODcxODc1LDE1MTk3NjcwNDQsLTk4Mj
-U1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIs
-MTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwOD
-A5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbLTg4ODYwODM3NCwxNTE5NzY3MDQ0LC05OD
+I1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEy
+LDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MD
+gwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
