@@ -59,6 +59,7 @@ The project produces recommendations of players with predicted scores according 
 
 *Data Cleaning*
 
+
 *Model Building*
 
 **Week 3-8: APP Building**
@@ -194,9 +195,9 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MT
-k3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3
-LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNz
-E4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0
-NF19
+eyJoaXN0b3J5IjpbLTExMTI0NzM0ODksLTIyOTA4OTE1MSwxNz
+g4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0
+MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMj
+gwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0
+MCwtMTQyMzkyNTE0NF19
 -->
