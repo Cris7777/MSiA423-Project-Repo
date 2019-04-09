@@ -44,11 +44,11 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 **Week 1-2: Data Processing**
 
-Exploratory Data Analysis
+- Exploratory Data Analysis
 
-Overview of Data
+  * Data Overview
 
-The dataset is from Kaggle, containing information on over 18,000 players.
+    The dataset is from Kaggle, containing information on over 18,000 players.
 
 Data Cleaning
 
@@ -66,9 +66,9 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNz
-g4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0
-MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMj
-gwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0
-MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbNzQwNjUyOTk2LC0xNDk5NjM3MTQ2LC0yMj
+kwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2
+MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NT
+gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
+Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
