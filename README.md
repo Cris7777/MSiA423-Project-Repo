@@ -37,6 +37,8 @@ Predict player scores with MSE lower than 10.
 
 Over 80% of users select recommended players as members of their teams.
 
+Payed service generates a yearly revenue of no less than $100,000.
+
 
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
 
@@ -168,7 +170,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMzQ4NDU2LDE1NzAxMzU5MTIsMTc1OD
-EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
-LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbLTk2MDM0MzgzNCwxNTcwMTM1OTEyLDE3NT
+gxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5
+Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
