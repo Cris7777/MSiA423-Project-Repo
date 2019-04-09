@@ -24,7 +24,7 @@
 
 **Success criteria** 
 
-*ML Metric*： Classified players with misclassification rate lower than 0.2. 
+*ML Metric*: Classified players with misclassification rate lower than 0.2. 
 
 *Business Metric*: Over 80% of users select recommended players as members of their teams.
 
@@ -157,3 +157,6 @@ Run `pytest` from the command line in the main project repository.
 
 
 Tests exist in `test/test_helpers.py`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0MjM5MjUxNDRdfQ==
+-->
