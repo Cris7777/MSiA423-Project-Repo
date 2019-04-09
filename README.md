@@ -18,14 +18,18 @@
 
 ## Project Charter 
 
-**Vision**: To enable animals everywhere to enjoy music just for them. 
+**Vision**: To enable users find players right for their vitrual soccer teams. 
 
-**Mission**: Enable users to add songs that they like and produce new song recommendations based on their entries.
+**Mission**: Enable users to search for players needed for their teams and produce similar player recommendations based on their entries.
 
-**Success criteria**: Users play 80% of recommended songs more than once. 
+**Success criteria** 
+*ML Metric*： Classified players with misclassification rate lower than 0.2. 
+*Business Metric*: Over 80% of users select recommended players as members of their teams.
 
 
 _Note_: Project charters should actually be more detailed than this! But this is where the charter belongs.  
+
+## Project Backlog
 
 ## Repo structure 
 
