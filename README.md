@@ -33,13 +33,13 @@ The project produces similar player recommendations based on user entries.
 
 **ML Metric**: 
 
-1. Predict player scores with MSE lower than 10. 
+- Predict player scores with MSE lower than 10. 
 
 **Business Metric**: 
 
-1. Over 80% of users select recommended players as members of their teams.
+- Over 80% of users select recommended players as members of their teams.
 
-2. Payed service and advertisements generate a yearly revenue of no less than $100,000.
+- Payed service and advertisements generate a yearly revenue of no less than $100,000.
 
 ## Project Backlog
 ### project timeline
@@ -169,7 +169,7 @@ Run `pytest` from the command line in the main project repository.
 
 Tests exist in `test/test_helpers.py`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1OD
-EyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3
-LDc5OTMzODU0MCwtMTQyMzkyNTE0NF19
+eyJoaXN0b3J5IjpbNDM5NTYxMDc4LDU1NDQ3NDgzNywxNTcwMT
+M1OTEyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0Miwt
+MTE0MDgwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
