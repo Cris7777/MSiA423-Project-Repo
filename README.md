@@ -106,9 +106,9 @@ The product will filter players in the dataset of scores within 1 point range of
   * Linear Regression
   * Neural Network
   * Random Forest
-  * Decision Tree
+  * Support Vector Machine
   
-  MSE is the common measurement of performances for all models listed above. Run a 10-fold cross valiThe model with the lowest MSE will be selected as the final model deployed in the product.
+  MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
 **Week 3-8: Product Building**
 
@@ -128,7 +128,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzE4NzQyMCwtMjEwNTkzOTY4OCwtMT
+eyJoaXN0b3J5IjpbLTYzNzkzMjAwOCwtMjEwNTkzOTY4OCwtMT
 g4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMy
 NDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4Mz
 gsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1
