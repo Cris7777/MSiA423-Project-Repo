@@ -47,7 +47,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 The overview part 
 
-count of players according to their countries
+count of players by country and position
 
 ### Prediction
 
@@ -130,7 +130,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mjc3MTc2LDE5ODY0ODcyOTgsLTE3MD
+eyJoaXN0b3J5IjpbMjA5ODIzNTE4LDE5ODY0ODcyOTgsLTE3MD
 g4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2
 ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3ODEsLT
 ExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMz
