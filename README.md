@@ -89,19 +89,21 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Week 3-8: APP Building**
 
-Building pipelines and web APP.
+Build pipelines and web APP
 
 **Week 9-10**
 
-Test web APP, optimize user interfaces and write the final report.
+- Test web APP 
+
+- Optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjA4Mjk2MSwtODU3NzMwMjAzLDg1OT
-UyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1
-ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MS
-wxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1
-MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5Ny
-wzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMz
-ODU0MF19
+eyJoaXN0b3J5IjpbNzQ5NTIxNTE5LC04NTc3MzAyMDMsODU5NT
+IxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4
+OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLD
+E3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04ODUx
+OTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIzMzk3LD
+MyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5MzM4
+NTQwXX0=
 -->
