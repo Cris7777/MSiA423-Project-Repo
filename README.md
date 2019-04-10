@@ -11,13 +11,15 @@
 
 ### Vision
 
-The project provides a tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
+The product is an APP which provides a transparent tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
 
 ### Mission
 
-- The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
+- Accuracy
+The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
-- The product produces recommendations of players with predicted scores according to different positions.
+- Transparency
+  The product produces recommendations of players with predicted scores according to different positions.
 
 ### Success criteria 
 
@@ -84,7 +86,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MTkwNTM5LDExNjg5ODYxOCwtMTI3NT
+eyJoaXN0b3J5IjpbMTY1Mzc1Njc1LDExNjg5ODYxOCwtMTI3NT
 A1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5
 MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC
 04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIz
