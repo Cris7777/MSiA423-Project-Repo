@@ -53,14 +53,23 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Main Page**
 
-*Icebox*:
+*Backlog:*
+
+*Icebox:*
 
 **Prediction Page**
 
-*Icebox*:
+*Backlog:*
+
+*Icebox:*
+
 **Recommendation Page**
-*Icebox*:
+
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
+
+*Backlog:*
+
+*Icebox:*
 
 ### Project Timeline
 
@@ -131,7 +140,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjYxMDc4OCw1MTAxNzQ0MjUsLTIxMD
+eyJoaXN0b3J5IjpbMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMD
 U5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3
 ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC
 0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4
