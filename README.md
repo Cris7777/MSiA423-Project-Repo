@@ -17,13 +17,13 @@ The product is a web APP which provides a transparent and accurate tool for virt
 
 - Accuracy
 
-  The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
+  The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, shot power, etc.
 
   According to the predicted score, the product produces recommendations of players different positions to users.
 
 - Transparency
 
-  Users are available to monitor the process of prediction and recommendation when using the product.
+  Users are available to monitor the process of prediction and recommendation when using the product. All scores,  of players
 
 ### Success criteria 
 
@@ -93,11 +93,11 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzczMDIwMyw4NTk1MjE3ODEsLTExNT
-IzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2
-ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5NDAxNi
-wxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3
-NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4MDkwODI1LD
-U5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5
-MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbLTI2MjE2OTkwNywtODU3NzMwMjAzLDg1OT
+UyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1
+ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MS
+wxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1
+MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5Ny
+wzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMz
+ODU0MF19
 -->
