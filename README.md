@@ -60,7 +60,9 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 - Model Building
 
-  Train multiple models to predict scores of players, including Neural Network, Decision Tree, Random Forest and Linear Regression in cross validation. Choose the model with the lowest MSE.
+  Train multiple models to predict scores of players, including both linear and non-linear models. 
+   
+  Choose the model with the lowest MSE.
 
 **Week 3-8: APP Building**
 
@@ -72,10 +74,10 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xND
-MzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5
-NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LD
-U1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4MDkw
-ODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMzg1NDAsLT
-E0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0OTQzMDI5MzQsMTE2ODk4NjE4LC0xMj
+c1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkw
+ODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2Mj
+QsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgx
+MjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Ny
+w3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
