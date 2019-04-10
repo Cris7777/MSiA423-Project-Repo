@@ -45,7 +45,9 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Project Themes
 
-***
+**Prediction**
+
+**Recommendation**
 
 ### Project Epics
 
@@ -77,6 +79,7 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
       + Duplicates Removing
       + Outliers Removing
       + Invalid Attributes Removing
+      Remove attributes that will not be selected to build models, such as 
 
 - Model Building
 
@@ -107,11 +110,11 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NzgwOTY5LC0xODg5MDA5MzQzLC04NT
-c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
-OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
-wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
-NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
-wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
-MDkxOTddfQ==
+eyJoaXN0b3J5IjpbMTQxMzk1MjU5MiwtMTg4OTAwOTM0MywtOD
+U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
+MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
+YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
+MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
+IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
+ODA5MTk3XX0=
 -->
