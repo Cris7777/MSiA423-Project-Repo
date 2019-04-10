@@ -55,6 +55,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Recommendation**
 
+Filter players in the dataset of scores within 1 point
+
 ### Project Timeline
 
 **Week 1-2: Data Processing**
@@ -105,11 +107,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDE0NzU4OCwtODU3NzMwMjAzLDg1OT
-UyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1
-ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MS
-wxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1
-MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5Ny
-wzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMz
-ODU0MF19
+eyJoaXN0b3J5IjpbNTI5MzkwNTMwLC04NTc3MzAyMDMsODU5NT
+IxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4
+OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLD
+E3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04ODUx
+OTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIzMzk3LD
+MyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5MzM4
+NTQwXX0=
 -->
