@@ -67,10 +67,13 @@ The product will filter players in the dataset of scores within 1 point range of
 
   * Data Overview
 
-    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The r
+    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables.
 
     + Descriptive Statistics
     + Skewness
+    
+      Draw histograms for each attribute with numerical values. Some models require 
+      
     + Influential Observations
 
   * Data Cleaning
@@ -111,11 +114,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjgwMzI5NCwtMTg4OTAwOTM0MywtOD
-U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
-MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
-YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
-MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
-IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
-ODA5MTk3XX0=
+eyJoaXN0b3J5IjpbNzQ2Nzc0MjQ5LC0xODg5MDA5MzQzLC04NT
+c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
+OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
+wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
+NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
+wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
+MDkxOTddfQ==
 -->
