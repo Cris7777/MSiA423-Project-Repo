@@ -57,7 +57,7 @@ The product is a web APP which provides a transparent and accurate tool for virt
 
   * Data Overview
 
-    The dataset contains information on over 18,000 players.
+    The dataset contains information on 18,207 players. Each player has 
 
     + Descriptive Statistics
     + Skewness
@@ -90,10 +90,11 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNj
-g5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYz
-NzE0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NC
-wtOTgyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEz
-NTkxMiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLT
-ExNDA4MDkxOTcsNzk5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbLTg0MzQ1Nzg0Miw4NTk1MjE3ODEsLTExNT
+IzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2
+ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5NDAxNi
+wxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3
+NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4MDkwODI1LD
+U5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMzg1NDAsLTE0MjM5
+MjUxNDRdfQ==
 -->
