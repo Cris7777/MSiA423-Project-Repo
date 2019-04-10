@@ -55,7 +55,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Recommendation**
 
-Filter players in the dataset of scores within 1 point
+Filter players in the dataset of scores within 1 point range of predicted outcomes.
 
 ### Project Timeline
 
@@ -107,11 +107,11 @@ Filter players in the dataset of scores within 1 point
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5MzkwNTMwLC04NTc3MzAyMDMsODU5NT
-IxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4
-OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLD
-E3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04ODUx
-OTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIzMzk3LD
-MyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5MzM4
-NTQwXX0=
+eyJoaXN0b3J5IjpbLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NT
+k1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4
+NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNT
+EsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4
+NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOT
+csMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkz
+Mzg1NDBdfQ==
 -->
