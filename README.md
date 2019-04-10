@@ -53,10 +53,13 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Main Page**
 
+*Icebox*:
+
 **Prediction Page**
 
+*Icebox*:
 **Recommendation Page**
-
+*Icebox*:
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
 
 ### Project Timeline
@@ -79,7 +82,7 @@ The product will filter players in the dataset of scores within 1 point range of
       
     + Influential Observations
     
-        Check all observations with extreme values, such as lower than 0 or larger than 100.
+        Check all observations with extreme values, for example, observations with some attributes of lower than 0 or larger than 100.
 
   * Data Cleaning
       
@@ -128,11 +131,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xOD
-g5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0
-NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOC
-wtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUx
-OTc2NzA0NCwtOTgyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4Mz
-csMTU3MDEzNTkxMiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3
-MTg4NDJdfQ==
+eyJoaXN0b3J5IjpbMTM1MjYxMDc4OCw1MTAxNzQ0MjUsLTIxMD
+U5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3
+ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC
+0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4
+ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5ND
+M2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4
+MDkwODI1XX0=
 -->
