@@ -49,6 +49,9 @@ Users are available to monitor the process of prediction and recommendation when
 
 The overview part provides a clear and overall description on all players. 
 
+**Epic 1**
+
+
 count of players by country and position
 
 ### Prediction
@@ -132,7 +135,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTA2NDc2MywxOTg2NDg3Mjk4LC0xNz
+eyJoaXN0b3J5IjpbMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNz
 A4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5
 Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC
 0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQz
