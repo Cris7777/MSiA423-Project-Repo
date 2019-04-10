@@ -39,7 +39,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 - 3000 active users after first year run of the product
 
-- 0.8 Click Through Rate for users who open the APP
+- 0.8 Click Through Rate for users who open the product
 
 ## Project Backlog
 
@@ -87,23 +87,29 @@ Users are available to monitor the process of prediction and recommendation when
   
   MSE is the common measurement of performances for all models listed above. The model with the lowest MSE will be selected as the final model deployed in the product.
 
-**Week 3-8: APP Building**
+**Week 3-8: Product Building**
 
-Build pipelines and web APP
+- Build pipelines
+
+- Realize all functions of the product 
+
+- Link different parts of the product together
 
 **Week 9-10**
 
-- Test web APP 
+- Test the product 
 
-- Optimize user interfaces and write the final report.
+- Optimize user interfaces 
+
+- write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NTIxNTE5LC04NTc3MzAyMDMsODU5NT
-IxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4
-OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLD
-E3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04ODUx
-OTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIzMzk3LD
-MyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNzk5MzM4
-NTQwXX0=
+eyJoaXN0b3J5IjpbMTU5MDE0NzU4OCwtODU3NzMwMjAzLDg1OT
+UyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1
+ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MS
+wxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1
+MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEyMzM5Ny
+wzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LDc5OTMz
+ODU0MF19
 -->
