@@ -11,7 +11,7 @@
 
 ### Vision
 
-The product is an APP which provides a transparent tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
+The product is a web APP which provides a transparent and accurate tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
 
 ### Mission
 
@@ -22,7 +22,8 @@ The product is an APP which provides a transparent tool for virtual soccer teams
   According to the predicted score, the product produces recommendations of players different positions to users.
 
 - Transparency
-Users are available 
+
+  Users are available to monitor the process of when using the product
 
 ### Success criteria 
 
@@ -89,7 +90,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0OTI2MTYzLC0xMTUyMzI0NDIxLDExNj
+eyJoaXN0b3J5IjpbNjc3OTk5NzkyLC0xMTUyMzI0NDIxLDExNj
 g5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYz
 NzE0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NC
 wtOTgyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEz
