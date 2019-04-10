@@ -53,11 +53,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 **Main Page**
 
-**Prediction**
+**Prediction Page**
 
-**Recommendation**
+**Recommendation Page**
 
-Filter players in the dataset of scores within 1 point range of predicted outcomes.
+The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
 
 ### Project Timeline
 
@@ -67,7 +67,7 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
   * Data Overview
 
-    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes.
+    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The r
 
     + Descriptive Statistics
     + Skewness
@@ -111,11 +111,11 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUxNzIxNDUsLTE4ODkwMDkzNDMsLT
-g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
-NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MT
-Q2LC0yMjkwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05
-ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OT
-EyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0
-MDgwOTE5N119
+eyJoaXN0b3J5IjpbMjA4NjgwMzI5NCwtMTg4OTAwOTM0MywtOD
+U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
+MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
+YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
+MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
+IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
+ODA5MTk3XX0=
 -->
