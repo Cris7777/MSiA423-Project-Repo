@@ -18,7 +18,7 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 - The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
-- The project produces recommendations of players with predicted scores according to different positions.
+- The product produces recommendations of players with predicted scores according to different positions.
 
 ### Success criteria 
 
@@ -48,7 +48,11 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
   * Data Overview
 
-    The dataset is from Kaggle, containing information on over 18,000 players.
+    The dataset contains information on over 18,000 players.
+
+    + 
+    + Skewness
+    
 
   * Data Cleaning
       
@@ -79,7 +83,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODUxMjQwOSwxMTY4OTg2MTgsLTEyNz
+eyJoaXN0b3J5IjpbLTU2OTYzNzM1OCwxMTY4OTg2MTgsLTEyNz
 UwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4
 OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNC
 wtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEy
