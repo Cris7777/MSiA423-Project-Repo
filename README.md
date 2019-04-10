@@ -79,7 +79,7 @@ The product is a web APP which provides a transparent and accurate tool for virt
   * Random Forest
   * Decision Tree
   
-  MSE is the measurement for model performance. The model with the lowest MSE will be selected as the final model deployed in the product.
+  MSE is the common measurement of performances for all models listed above. The model with the lowest MSE will be selected as the final model deployed in the product.
 
 **Week 3-8: APP Building**
 
@@ -91,7 +91,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDA4NzgxNiw4NTk1MjE3ODEsLTExNT
+eyJoaXN0b3J5IjpbLTMyMTU0MzQxNSw4NTk1MjE3ODEsLTExNT
 IzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2
 ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5NDAxNi
 wxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3
