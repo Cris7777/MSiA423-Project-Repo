@@ -43,11 +43,12 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Project Backlog
 
-### Project Themes
+### Prediction
 
-**Prediction**
+**Epic 1:**
 
-**Recommendation**
+### Recommendation
+
 
 ### Project Epics
 
@@ -140,11 +141,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMD
-U5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3
-ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC
-0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4
-ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5ND
-M2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4
-MDkwODI1XX0=
+eyJoaXN0b3J5IjpbLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MT
+AxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1Nzcz
+MDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC
+0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0y
+MjkwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NT
+E2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3
+NTgxMjMzOTddfQ==
 -->
