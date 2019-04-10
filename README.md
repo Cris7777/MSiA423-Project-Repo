@@ -5,14 +5,13 @@
 - [Project Charter](#project-charter)
 - [Project Backlog](#project-backlog)
 
-
 <!-- tocstop -->
 
 ## Project Charter 
 
 ### Vision
 
-The project provides a tool for virtual soccer teams founders to estimate scores of players in their teams, as well as to find players right for their teams.
+The project provides a tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
 
 ### Mission
 
@@ -53,15 +52,12 @@ The project provides a tool for virtual soccer teams founders to estimate scores
     + Descriptive Statistics
     + Skewness
     + Influential Observations
-    
 
   * Data Cleaning
       
       + NAs Removing
       + Duplicates Removing
       + Outliers Removing
-
-
 
 - Model Building
 
@@ -84,7 +80,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzE2MjYxOSwxMTY4OTg2MTgsLTEyNz
+eyJoaXN0b3J5IjpbLTI0MzE1ODI0NiwxMTY4OTg2MTgsLTEyNz
 UwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4
 OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNC
 wtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEy
