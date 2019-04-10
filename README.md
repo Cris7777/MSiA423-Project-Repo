@@ -83,7 +83,7 @@ The product will filter players in the dataset of scores within 1 point range of
       
       + NAs Removing
        
-         Remove observations having NA values for selected variables.
+         Remove observations having NA values for selected variables. 
          
       + Duplicates Removing
         
@@ -126,11 +126,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY1NDU0MjcsLTE4ODkwMDkzNDMsLT
-g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
-NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MT
-Q2LC0yMjkwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05
-ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OT
-EyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0
-MDgwOTE5N119
+eyJoaXN0b3J5IjpbNjUzMzEzMTcxLC0xODg5MDA5MzQzLC04NT
+c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
+OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
+wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
+NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
+wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
+MDkxOTddfQ==
 -->
