@@ -53,6 +53,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Recommendation
 
+**Epic 1**
+
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
 
 ### Project Timeline
@@ -124,7 +126,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTc4OTQwMCwtMTcwODgyNzQwOSwxMD
+eyJoaXN0b3J5IjpbMTk4NjQ4NzI5OCwtMTcwODgyNzQwOSwxMD
 M0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAw
 OTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMS
 wxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0
