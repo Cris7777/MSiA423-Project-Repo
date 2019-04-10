@@ -101,14 +101,14 @@ The product will filter players in the dataset of scores within 1 point range of
 
 - Model Building
 
-  Train multiple models to predict scores of players, including both linear and non-linear models. 
+  Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
   * Linear Regression
   * Neural Network
   * Random Forest
   * Decision Tree
   
-  MSE is the common measurement of performances for all models listed above. The model with the lowest MSE will be selected as the final model deployed in the product.
+  MSE is the common measurement of performances for all models listed above. Run a 10-fold cross valiThe model with the lowest MSE will be selected as the final model deployed in the product.
 
 **Week 3-8: Product Building**
 
@@ -128,11 +128,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLT
-g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
-NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MT
-Q2LC0yMjkwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05
-ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OT
-EyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0
-MDgwOTE5N119
+eyJoaXN0b3J5IjpbMTIwNzE4NzQyMCwtMjEwNTkzOTY4OCwtMT
+g4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMy
+NDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4Mz
+gsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1
+MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0OD
+M3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkz
+NzE4ODQyXX0=
 -->
