@@ -58,10 +58,10 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 
 
-- Model Building
+ Model Building
 
   Train multiple models to predict scores of players, including both linear and non-linear models. 
-   
+
   Choose the model with the lowest MSE.
 
 **Week 3-8: APP Building**
@@ -74,10 +74,10 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQzMDI5MzQsMTE2ODk4NjE4LC0xMj
-c1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkw
-ODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2Mj
-QsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgx
-MjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Ny
-w3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
+eyJoaXN0b3J5IjpbMTkxOTYzNjIwNywxMTY4OTg2MTgsLTEyNz
+UwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4
+OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNC
+wtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEy
+MzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQwODA5MTk3LD
+c5OTMzODU0MCwtMTQyMzkyNTE0NF19
 -->
