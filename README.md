@@ -57,7 +57,7 @@ The product is a web APP which provides a transparent and accurate tool for virt
 
   * Data Overview
 
-    The dataset contains information on 18,207 players. Each player has 
+    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes
 
     + Descriptive Statistics
     + Skewness
@@ -90,7 +90,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzQ1Nzg0Miw4NTk1MjE3ODEsLTExNT
+eyJoaXN0b3J5IjpbLTIxMTY1MDQ2Niw4NTk1MjE3ODEsLTExNT
 IzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2
 ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5NDAxNi
 wxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3
