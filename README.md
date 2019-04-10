@@ -23,7 +23,7 @@ The product is a web APP which provides a transparent and accurate tool for virt
 
 - Transparency
 
-  Users are available to monitor the process of when using the product
+  Users are available to monitor the process of prediction and recommendation when using the product.
 
 ### Success criteria 
 
@@ -90,7 +90,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3OTk5NzkyLC0xMTUyMzI0NDIxLDExNj
+eyJoaXN0b3J5IjpbODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNj
 g5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYz
 NzE0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NC
 wtOTgyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEz
