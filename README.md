@@ -47,7 +47,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Overview
 
-The overview part provides a clear and overall description on all players. 
+The overview part provides a clear and overall description on all players. This part is the main page of the product.
 
 **Epic 1: Description on Players**
 
@@ -55,6 +55,7 @@ The overview part provides a clear and overall description on all players.
   * Backlog
      + Click
   * Icebox
+    
 
 **Epic 2: List of Product Functions**
 
@@ -64,11 +65,13 @@ count of players by country and position
 
 **Epic 1: Prediction Input**
 
-**Epic 1: Prediction Outcome**
+**Epic 2: Prediction Outcome**
 
 ### Recommendation
 
-**Epic 1**
+**Epic 1: Recommendation Filter**
+
+**Epic 2: Recommendation Outcome**
 
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
 
@@ -141,11 +144,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI3NjkzNzYsMTI1MjYzNjY1NywxOT
-g2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0
-NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMD
-MsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3
-NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MD
-g5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0
-LC04ODUxOTQzNl19
+eyJoaXN0b3J5IjpbMTQ1MjQ3NzIxNSwxMjUyNjM2NjU3LDE5OD
+Y0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0
+MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMy
+w4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1
+MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwOD
+kxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQs
+LTg4NTE5NDM2XX0=
 -->
