@@ -50,8 +50,7 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
     The dataset contains information on over 18,000 players.
 
-    + Minimum and Maximum
-    + Mean and Median
+    + Descriptive Statistics
     + Skewness
     + Influential Observations
     
@@ -85,7 +84,7 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjM4MzI4MCwxMTY4OTg2MTgsLTEyNz
+eyJoaXN0b3J5IjpbLTYxNzE2MjYxOSwxMTY4OTg2MTgsLTEyNz
 UwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4
 OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNC
 wtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MTIsMTc1ODEy
