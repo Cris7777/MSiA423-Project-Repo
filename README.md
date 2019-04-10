@@ -83,7 +83,13 @@ The product will filter players in the dataset of scores within 1 point range of
          Remove observations having NA values for selected variables.
          
       + Duplicates Removing
+        
+        Remove duplicated observations, which are defined as observations sharing the same unique player ID.
+        
       + Outliers Removing
+      
+        Remove
+      
       + Invalid Attributes Removing
      
         Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
@@ -117,7 +123,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTYwMzMzNiwtMTg4OTAwOTM0MywtOD
+eyJoaXN0b3J5IjpbLTgyMDQ2OTA5NSwtMTg4OTAwOTM0MywtOD
 U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
 MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
 YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
