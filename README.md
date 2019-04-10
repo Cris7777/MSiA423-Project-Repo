@@ -55,7 +55,7 @@ The overview part provides a clear and overall description on all players. This 
   * Backlog
      + Click
   * Icebox
-    
+    + Dynamic figures 
 
 **Epic 2: List of Product Functions**
 
@@ -144,11 +144,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQ3NzIxNSwxMjUyNjM2NjU3LDE5OD
-Y0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0
-MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMy
-w4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1
-MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwOD
-kxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQs
-LTg4NTE5NDM2XX0=
+eyJoaXN0b3J5IjpbODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4Nj
+Q4NzI5OCwtMTcwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQy
+NSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLD
+g1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUw
+NTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OT
+E1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwt
+ODg1MTk0MzZdfQ==
 -->
