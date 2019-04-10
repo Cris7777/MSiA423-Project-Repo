@@ -59,6 +59,13 @@ The overview part provides a clear and overall description on all players. This 
 
 **Epic 2: List of Product Functions**
 
+- Story
+  * Backlog
+     + Click on the prediction icon to jump to the page of prediction
+     + Click on the recommendation icon to jump to the page of recommendation
+  * Icebox
+    + Dynamic figures 
+
 count of players by country and position
 
 ### Prediction
@@ -144,11 +151,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4Nj
-Q4NzI5OCwtMTcwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQy
-NSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLD
-g1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUw
-NTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OT
-E1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwt
-ODg1MTk0MzZdfQ==
+eyJoaXN0b3J5IjpbMTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1Mj
+YzNjY1NywxOTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYz
+MDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5MzQzLC
+04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5
+ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNz
+E0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwt
+OTgyNTUxNjI0XX0=
 -->
