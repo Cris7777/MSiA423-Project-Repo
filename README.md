@@ -16,7 +16,7 @@ The project provides a tool for virtual soccer teams founders to estimate scores
 
 ### Mission
 
-- The project enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
+- The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
 - The project produces recommendations of players with predicted scores according to different positions.
 
@@ -72,10 +72,10 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLT
-E0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3
-NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LD
-E1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4
-ODQyLC0xMTQwODA5MTk3LDc5OTMzODU0MCwtMTQyMzkyNTE0NF
-19
+eyJoaXN0b3J5IjpbMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xND
+MzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5
+NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LD
+U1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOTcsMzI4MDkw
+ODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkzMzg1NDAsLT
+E0MjM5MjUxNDRdfQ==
 -->
