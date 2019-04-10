@@ -79,7 +79,7 @@ The product will filter players in the dataset of scores within 1 point range of
       
     + Influential Observations
     
-        Check 
+        Check all observations with extreme values, such as lower than 0 or larger than 100.
 
   * Data Cleaning
       
@@ -128,11 +128,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzkzMjAwOCwtMjEwNTkzOTY4OCwtMT
-g4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMy
-NDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4Mz
-gsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1
-MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0OD
-M3LDE1NzAxMzU5MTIsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkz
-NzE4ODQyXX0=
+eyJoaXN0b3J5IjpbNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xOD
+g5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0
+NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOC
+wtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUx
+OTc2NzA0NCwtOTgyNTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4Mz
+csMTU3MDEzNTkxMiwxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3
+MTg4NDJdfQ==
 -->
