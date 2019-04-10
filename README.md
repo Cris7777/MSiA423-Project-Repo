@@ -29,9 +29,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 **ML Metric**: 
 
-- Predict player scores with Mean Squared Error of  lower than 10. 
-
-- 
+- Less than 10 of Mean Squared Error to predict  scores of players
+- More than 0.7 of R-Squared for the final m
 
 **Business Metric**: 
 
@@ -132,11 +131,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQyMDQ1MjMsMTk4NjQ4NzI5OCwtMT
-cwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkz
-OTY4OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MS
-wtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0
-MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nz
-k0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYs
-NTU0NDc0ODM3XX0=
+eyJoaXN0b3J5IjpbMTYyODg1MzkwNSwxOTg2NDg3Mjk4LC0xNz
+A4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5
+Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC
+0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQz
+MzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLDE3ODg3OT
+QwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC04ODUxOTQzNiw1
+NTQ0NzQ4MzddfQ==
 -->
