@@ -79,7 +79,8 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
       + Duplicates Removing
       + Outliers Removing
       + Invalid Attributes Removing
-      Remove attributes that will not be selected to build models, such as 
+     
+        Remove attributes that will not be selected to build models, such as player photo, player nationality, pl
 
 - Model Building
 
@@ -110,7 +111,7 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzk1MjU5MiwtMTg4OTAwOTM0MywtOD
+eyJoaXN0b3J5IjpbMTY1NjY4OTI2OCwtMTg4OTAwOTM0MywtOD
 U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
 MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
 YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
