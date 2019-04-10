@@ -31,6 +31,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Predict player scores with Mean Squared Error of  lower than 10. 
 
+- 
+
 **Business Metric**: 
 
 - 80% of users select recommended players as members of their teams.
@@ -130,11 +132,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODIzNTE4LDE5ODY0ODcyOTgsLTE3MD
-g4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2
-ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3ODEsLT
-ExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMz
-MTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4ODc5ND
-AxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4NTE5NDM2LDU1
-NDQ3NDgzN119
+eyJoaXN0b3J5IjpbLTExMDQyMDQ1MjMsMTk4NjQ4NzI5OCwtMT
+cwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkz
+OTY4OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MS
+wtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0
+MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nz
+k0MDE2LDE1MTk3NjcwNDQsLTk4MjU1MTYyNCwtODg1MTk0MzYs
+NTU0NDc0ODM3XX0=
 -->
