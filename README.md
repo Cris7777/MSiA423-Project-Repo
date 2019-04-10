@@ -72,13 +72,16 @@ The product will filter players in the dataset of scores within 1 point range of
     + Descriptive Statistics
     + Skewness
     
-      Draw histograms for each attribute with numerical values. Some models require 
+      Draw histograms for each attribute with numerical values to see the skewness. For models that require normal distribution
       
     + Influential Observations
 
   * Data Cleaning
       
       + NAs Removing
+       
+         Remove observations having NA values for selected variables.
+         
       + Duplicates Removing
       + Outliers Removing
       + Invalid Attributes Removing
@@ -114,11 +117,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2Nzc0MjQ5LC0xODg5MDA5MzQzLC04NT
-c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
-OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
-wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
-NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
-wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
-MDkxOTddfQ==
+eyJoaXN0b3J5IjpbMTMwMTYwMzMzNiwtMTg4OTAwOTM0MywtOD
+U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
+MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
+YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
+MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
+IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
+ODA5MTk3XX0=
 -->
