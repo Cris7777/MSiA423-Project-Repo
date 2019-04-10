@@ -43,6 +43,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Project Backlog
 
+### Overview
+
 ### Prediction
 
 **Epic 1**
@@ -51,26 +53,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Recommendation
 
-
-**Main Page**
-
-*Backlog:*
-
-*Icebox:*
-
-**Prediction Page**
-
-*Backlog:*
-
-*Icebox:*
-
-**Recommendation Page**
-
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
-
-*Backlog:*
-
-*Icebox:*
 
 ### Project Timeline
 
@@ -141,7 +124,7 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTY4OTExOSwtMTcwODgyNzQwOSwxMD
+eyJoaXN0b3J5IjpbLTU5OTc4OTQwMCwtMTcwODgyNzQwOSwxMD
 M0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAw
 OTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMS
 wxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0
