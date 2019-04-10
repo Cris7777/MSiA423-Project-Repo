@@ -71,11 +71,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
     + Descriptive Statistics
     
-        Construct a summary on the data.
+        Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
         
     + Skewness
     
-      Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution
+      Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
       
     + Influential Observations
 
@@ -126,11 +126,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY4MTgzNiwtMTg4OTAwOTM0MywtOD
-U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
-MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
-YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
-MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
-IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
-ODA5MTk3XX0=
+eyJoaXN0b3J5IjpbLTE4MTY1NDU0MjcsLTE4ODkwMDkzNDMsLT
+g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
+NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MT
+Q2LC0yMjkwODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05
+ODI1NTE2MjQsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OT
+EyLDE3NTgxMjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0
+MDgwOTE5N119
 -->
