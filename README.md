@@ -19,7 +19,7 @@ The product is an APP which provides a transparent tool for virtual soccer teams
 The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, etc.
 
 - Transparency
-  The product produces recommendations of players with predicted scores according to different positions.
+The product produces recommendations of players with predicted scores according to different positions.
 
 ### Success criteria 
 
@@ -86,10 +86,10 @@ Test web APP, optimize user interfaces and write the final report.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Mzc1Njc1LDExNjg5ODYxOCwtMTI3NT
-A1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5
-MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgyNTUxNjI0LC
-04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMiwxNzU4MTIz
-Mzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4MDkxOTcsNz
-k5MzM4NTQwLC0xNDIzOTI1MTQ0XX0=
+eyJoaXN0b3J5IjpbLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMj
+c1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkw
+ODkxNTEsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2Mj
+QsLTg4NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgx
+MjMzOTcsMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Ny
+w3OTkzMzg1NDAsLTE0MjM5MjUxNDRdfQ==
 -->
