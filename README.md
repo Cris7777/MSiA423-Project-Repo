@@ -18,8 +18,8 @@ The product is a web APP which provides a transparent and accurate tool for virt
 **Accuracy**
 
 The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, shot power, etc.
-
 According to the predicted score, the product produces recommendations of players different positions to users.
+
 
 **Transparency**
 
@@ -80,7 +80,7 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
       + Outliers Removing
       + Invalid Attributes Removing
      
-        Remove attributes that will not be selected to build models, such as player photo, player nationality, pl
+        Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
 
 - Model Building
 
@@ -111,11 +111,11 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjY4OTI2OCwtMTg4OTAwOTM0MywtOD
-U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
-MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4MzgsLTE0OTk2MzcxND
-YsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1MTk3NjcwNDQsLTk4
-MjU1MTYyNCwtODg1MTk0MzYsNTU0NDc0ODM3LDE1NzAxMzU5MT
-IsMTc1ODEyMzM5NywzMjgwOTA4MjUsNTkzNzE4ODQyLC0xMTQw
-ODA5MTk3XX0=
+eyJoaXN0b3J5IjpbNTA4OTk5OTE1LC0xODg5MDA5MzQzLC04NT
+c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
+OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
+wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
+NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
+wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
+MDkxOTddfQ==
 -->
