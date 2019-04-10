@@ -45,7 +45,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Project Themes
 
-
+***
 
 ### Project Epics
 
@@ -107,11 +107,11 @@ Filter players in the dataset of scores within 1 point range of predicted outcom
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NT
-k1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4
-NTg4LC0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNT
-EsMTc4ODc5NDAxNiwxNTE5NzY3MDQ0LC05ODI1NTE2MjQsLTg4
-NTE5NDM2LDU1NDQ3NDgzNywxNTcwMTM1OTEyLDE3NTgxMjMzOT
-csMzI4MDkwODI1LDU5MzcxODg0MiwtMTE0MDgwOTE5Nyw3OTkz
-Mzg1NDBdfQ==
+eyJoaXN0b3J5IjpbMjM0NzgwOTY5LC0xODg5MDA5MzQzLC04NT
+c3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYx
+OCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0Ni
+wtMjI5MDg5MTUxLDE3ODg3OTQwMTYsMTUxOTc2NzA0NCwtOTgy
+NTUxNjI0LC04ODUxOTQzNiw1NTQ0NzQ4MzcsMTU3MDEzNTkxMi
+wxNzU4MTIzMzk3LDMyODA5MDgyNSw1OTM3MTg4NDIsLTExNDA4
+MDkxOTddfQ==
 -->
