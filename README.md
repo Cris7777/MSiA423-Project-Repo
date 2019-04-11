@@ -51,28 +51,38 @@ Users are available to monitor the process of prediction and recommendation when
 
 The overview part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
 
-**Epic 1: Description on Players**
-
-The product 
+**Epic 1: List Main Page Content**
 
 - Story 1: Statistics on Player Information
   * Backlog
-     + Click
+     + Provide a table of count of players by country on top of the page
+     + Provide a pie chart of count of players by position
   * Icebox
-    + Dynamic figures 
+    + Change static figures to dynamic figures
+    + Add player pictures when opening the product
 
-- Story 2: Histogram on 
-
+- Story 2: Advertisements 
+  * Backlog
+     + Provide a picture which links to an external product
+  * Icebox
+    + Add more advertisements to the main page
+    + Scroll among advertisements automatically
+    
 **Epic 2: Switch to other Functions**
 
 - Story 1: Switch to Prediction
   * Backlog
-     + Click on the prediction icon to jump to the page of prediction
-     + Click on the recommendation icon to jump to the page of recommendation
+     + Show an icon at the bottom of the page which represents the function of prediction
+     + Click on the prediction icon which connects to the page of prediction
   * Icebox
     + Dynamic figures 
 
-count of players by country and position
+- Story 2: Switch to Recommendation
+  * Backlog
+     + Show an icon at the bottom of the page which represents the function of recommendation
+     + Click on the prediction icon which connects to the page of recommendation
+  * Icebox
+    + Dynamic figures 
 
 ### Prediction
 
@@ -89,6 +99,8 @@ The prediction part enables users to predict overall scores of players according
 **Epic 1: Recommendation Filter**
 
 **Epic 2: Recommendation Outcome**
+
+**Epic 3: Switch to other Functions**
 
 The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
 
@@ -161,11 +173,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDc4MzE4Miw4MDM5ODQ2ODMsMTc3NT
-gwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4
-LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMT
-A1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIx
-NzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OC
-wtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLDE3
-ODg3OTQwMTZdfQ==
+eyJoaXN0b3J5IjpbLTMyMjQ2NTgxLDgwMzk4NDY4MywxNzc1OD
+A2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0ODcyOTgs
+LTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMD
+U5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3
+ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC
+0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4
+ODc5NDAxNl19
 -->
