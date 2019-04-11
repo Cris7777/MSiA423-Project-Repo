@@ -15,7 +15,7 @@ The product is a web APP which provides a transparent and accurate tool for virt
 
 ### Mission
 
-Accuracy and transparency are goals of the product.
+Accuracy and transparency are product goals.
 
 **Accuracy**
 
@@ -49,19 +49,23 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Overview
 
-The overview part provides a clear and overall description on all players. This part is the main page of the product.
+The overview part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
 
 **Epic 1: Description on Players**
 
-- Story
+The product 
+
+- Story 1: Statistics on Player Information
   * Backlog
      + Click
   * Icebox
     + Dynamic figures 
 
-**Epic 2: List of Product Functions**
+- Story 2: Histogram on 
 
-- Story
+**Epic 2: Switch to other Functions**
+
+- Story 1: Switch to Prediction
   * Backlog
      + Click on the prediction icon to jump to the page of prediction
      + Click on the recommendation icon to jump to the page of recommendation
@@ -72,9 +76,13 @@ count of players by country and position
 
 ### Prediction
 
+The prediction part enables users to predict overall scores of players according to input attributes.
+
 **Epic 1: Prediction Input**
 
 **Epic 2: Prediction Outcome**
+
+**Epic 3: Switch to other Functions**
 
 ### Recommendation
 
@@ -153,11 +161,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzOTg0NjgzLDE3NzU4MDYzNTAsODQ5Mz
-E3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwODgyNzQw
-OSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMT
-g4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMy
-NDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMxMDY4Mz
-gsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4Nzk0MDE2LDE1
-MTk3NjcwNDRdfQ==
+eyJoaXN0b3J5IjpbMTQ4NDc4MzE4Miw4MDM5ODQ2ODMsMTc3NT
+gwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4
+LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMT
+A1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIx
+NzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMTI3NTA1ODU4OC
+wtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5MDg5MTUxLDE3
+ODg3OTQwMTZdfQ==
 -->
