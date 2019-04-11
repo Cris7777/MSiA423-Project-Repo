@@ -265,27 +265,26 @@ This part recommends actual users for players to choose according to their previ
 
 **Week 3-8: Product Building**
 
-- Build pipelines
+- [ ] Build pipelines
 
-- Realize all functions of the product 
+- [ ] Realize all functions of the product 
 
-- Link different parts of the product together
+- [ ] Link different parts of the product together
 
 **Week 9-10**
 
-- Test the feasibility of the product 
+- [ ] Test the feasibility of the product 
 
-- Optimize the product
+- [ ] Optimize the product
 
-- Write the final report
-
+- [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5OD
-Q2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1Nywx
-OTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMT
-c0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAy
-MDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLDExNjg5ODYxOCwtMT
-I3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5OTYzNzE0NiwtMjI5
-MDg5MTUxXX0=
+eyJoaXN0b3J5IjpbLTE5NDQ2NzEyNTcsLTgyMzEzMDM5NSwtOT
+M3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQs
+MTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMz
+QzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5
+MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLD
+ExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5
+OTYzNzE0Nl19
 -->
