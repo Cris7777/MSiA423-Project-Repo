@@ -47,6 +47,10 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Project Planning
 
+### Theme
+
+### Epics
+
 ### Home
 
 This part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
@@ -280,11 +284,11 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
-MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
-ODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwOD
-gyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4
-OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMT
-E1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMx
-MDY4MzhdfQ==
+eyJoaXN0b3J5IjpbODg5NzU5NTU4LDIwMzMzNzY1NTUsLTI1OT
+kxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQwLDgwMzk4NDY4Mywx
+Nzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0OD
+cyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUs
+LTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NT
+k1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4
+NTg4XX0=
 -->
