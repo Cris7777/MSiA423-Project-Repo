@@ -222,33 +222,33 @@ This part recommends actual users for players to choose according to their previ
 
     The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
 
-    + Descriptive Statistics
+    - [x] Descriptive Statistics
     
         Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
         
-    + Skewness
+    - [x] Skewness
     
       Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
       
-    + Influential Observations
+    - [x] Influential Observations
     
         Check all observations with extreme values, for example, observations with some attributes of lower than 0 or larger than 100.
 
   * Data Cleaning
       
-      + NAs Removing
+      - [x] NAs Removing
        
          Remove observations having NA values for selected variables. 
          
-      + Duplicates Removing
+      - [x] Duplicates Removing
         
         Remove duplicated observations, which are defined as observations sharing the same unique player ID.
         
-      + Outliers Removing
+      - [x] Outliers Removing
       
         Remove all abnormal observations that could have impact on parameters of the model.
       
-      + Invalid Attributes Removing
+      - [x] Invalid Attributes Removing
      
         Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
 
@@ -280,11 +280,11 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ2NzEyNTcsLTgyMzEzMDM5NSwtOT
-M3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQs
-MTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMz
-QzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5
-MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0NDIxLD
-ExNjg5ODYxOCwtMTI3NTA1ODU4OCwtMTQzMzEwNjgzOCwtMTQ5
-OTYzNzE0Nl19
+eyJoaXN0b3J5IjpbMTQxMzg3NzY0MSwtODIzMTMwMzk1LC05Mz
+c5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwx
+MjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzND
+MxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkz
+NDMsLTg1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMT
+E2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5
+NjM3MTQ2XX0=
 -->
