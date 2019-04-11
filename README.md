@@ -256,10 +256,10 @@ This part recommends actual users for players to choose according to their previ
 
   Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
-  * Linear Regression
-  * Neural Network
-  * Random Forest
-  * Support Vector Machine
+  - [ ] Linear Regression
+  - [ ] Neural Network
+  - [ ] Random Forest
+  - [ ] Support Vector Machine
   
   MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
@@ -280,7 +280,7 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzg3NzY0MSwtODIzMTMwMzk1LC05Mz
+eyJoaXN0b3J5IjpbLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mz
 c5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwx
 MjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzND
 MxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkz
