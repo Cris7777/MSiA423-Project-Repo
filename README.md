@@ -45,7 +45,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 - 0.8 Click Through Rate for users who open the product
 
-## Project Backlog
+## Project Planning
 
 ### Home
 
@@ -280,11 +280,11 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mz
-c5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwx
-MjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzND
-MxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkz
-NDMsLTg1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMT
-E2ODk4NjE4LC0xMjc1MDU4NTg4LC0xNDMzMTA2ODM4LC0xNDk5
-NjM3MTQ2XX0=
+eyJoaXN0b3J5IjpbMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
+MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
+ODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwOD
+gyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4
+OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4MSwtMT
+E1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLTE0MzMx
+MDY4MzhdfQ==
 -->
