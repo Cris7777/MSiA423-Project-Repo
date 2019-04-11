@@ -47,9 +47,9 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Project Backlog
 
-### Overview
+### Home
 
-The overview part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
+This part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
 
 **Epic 1: List Main Page Content**
 
@@ -75,34 +75,142 @@ The overview part provides a clear and overall description on all players. This 
      + Show an icon at the bottom of the page which represents the function of prediction
      + Click on the prediction icon which connects to the page of prediction
   * Icebox
-    + Dynamic figures 
+    + Change icon color on clicking
 
 - Story 2: Switch to Recommendation
   * Backlog
      + Show an icon at the bottom of the page which represents the function of recommendation
      + Click on the prediction icon which connects to the page of recommendation
   * Icebox
-    + Dynamic figures 
+    + Change icon color on clicking
+
+- Story 3: Stay at Main Page
+  * Backlog
+     + Show an icon at the bottom of the page which represents main page
+     + Click on the prediction icon which connects to the main page
+  * Icebox
+    + Change icon color on clicking
 
 ### Prediction
 
-The prediction part enables users to predict overall scores of players according to input attributes.
+This part enables users to predict overall scores of players according to input attributes.
 
 **Epic 1: Prediction Input**
 
+- Story 1: Input Attributes
+  * Backlog
+    + Provide the blank to fill in player score of strength
+    + Provide the blank to fill in player score of balance
+    + Provide the blank to fill in player score of shot power
+    + Provide the blank to fill in player score of stamina
+    + Provide the blank to fill in player score of other significant variables
+  * Icebox
+    + Divide scores into different classes
+    + Allow users to choose scores from a list
+
+- Story 2: Go to Outcome
+  * Backlog
+    + Show a button which links to the outcome page
+  * Icebox
+    + Jump out a window to ask users confirm input data
+
 **Epic 2: Prediction Outcome**
 
+- Story 1: Provide Outcome
+  * Backlog
+    + Use the model to predicted score based on input attributes
+    + Provide the score to the user
+  * Icebox
+    + Provide possible advantages of the player as well
+
+- Story 2: Return to Input
+  * Backlog
+    + Show a button which links back to the attributes input page
+  * Icebox
+    + Jump out a window to ask users whether to save prediction of this time
+
 **Epic 3: Switch to other Functions**
+
+- Story 1: Stay at Prediction
+  * Backlog
+     + Show an icon at the bottom of the page which represents the function of prediction
+     + Click on the prediction icon which connects to the page of prediction
+  * Icebox
+    + Change icon color on clicking
+
+- Story 2: Switch to Recommendation
+  * Backlog
+     + Show an icon at the bottom of the page which represents the function of recommendation
+     + Click on the prediction icon which connects to the page of recommendation
+  * Icebox
+    + Change icon color on clicking
+
+- Story 3: Stay at Main Page
+  * Backlog
+     + Show an icon at the bottom of the page which represents main page
+     + Click on the prediction icon which connects to the main page
+  * Icebox
+    + Change icon color on clicking
 
 ### Recommendation
 
+This part recommends actual users for players to choose according to their previous input.
+
 **Epic 1: Recommendation Filter**
+
+- Story 1: Input Filter
+  * Backlog
+    + Provide the blank for users to fill in player position
+    + Provide the blank for users to fill in player age
+    + Provide the blank for users to fill in other possible conditions
+  * Icebox
+    + Allow users to choose scores from a list
+
+- Story 2: Go to Outcome
+  * Backlog
+    + Show a button which links to the outcome page
+  * Icebox
+    + Jump out a window to ask users confirm input conditions
 
 **Epic 2: Recommendation Outcome**
 
+- Story 1: Provide Outcome
+  * Backlog
+    + Find players in the dataset of scores within 1 point range of predicted outcomes.
+    + Filter closest players above by input conditions
+    + Provide recommended players to the user
+  * Icebox
+    + Provide more information on the player, such as photo, nationality, club, etc.
+
+- Story 2: Return to Input
+  * Backlog
+    + Show a button which links back to the filter input page
+  * Icebox
+    + Jump out a window to ask users whether to save prediction of this time
+    + Jump out a window to ask users whether to use recommended players in the team
+
 **Epic 3: Switch to other Functions**
 
-The product will filter players in the dataset of scores within 1 point range of predicted outcomes.
+- Story 1: Switch to Prediction
+  * Backlog
+     + Show an icon at the bottom of the page which represents the function of prediction
+     + Click on the prediction icon which connects to the page of prediction
+  * Icebox
+    + Change icon color on clicking
+
+- Story 2: Stay at Recommendation
+  * Backlog
+     + Show an icon at the bottom of the page which represents the function of recommendation
+     + Click on the prediction icon which connects to the page of recommendation
+  * Icebox
+    + Change icon color on clicking
+
+- Story 3: Stay at Main Page
+  * Backlog
+     + Show an icon at the bottom of the page which represents main page
+     + Click on the prediction icon which connects to the main page
+  * Icebox
+    + Change icon color on clicking
 
 ### Project Timeline
 
@@ -173,11 +281,11 @@ The product will filter players in the dataset of scores within 1 point range of
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjQ2NTgxLDgwMzk4NDY4MywxNzc1OD
-A2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0ODcyOTgs
-LTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMD
-U5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3
-ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4NTg4LC
-0xNDMzMTA2ODM4LC0xNDk5NjM3MTQ2LC0yMjkwODkxNTEsMTc4
-ODc5NDAxNl19
+eyJoaXN0b3J5IjpbLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MD
+YzNTAsODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwt
+MTcwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNT
+kzOTY4OCwtMTg4OTAwOTM0MywtODU3NzMwMjAzLDg1OTUyMTc4
+MSwtMTE1MjMyNDQyMSwxMTY4OTg2MTgsLTEyNzUwNTg1ODgsLT
+E0MzMxMDY4MzgsLTE0OTk2MzcxNDYsLTIyOTA4OTE1MSwxNzg4
+Nzk0MDE2XX0=
 -->
