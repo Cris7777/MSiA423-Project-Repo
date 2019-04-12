@@ -146,18 +146,18 @@ The theme of this product is to help users easily predict overall player scores 
 3. Theme.Epic2.Story1: Model Fitting (4 points) - PLANNED
 4. Theme.Epic2.Story2: Model Comparison (4 points) PLANNED
 5. Theme.Epic3.Story1: Web APP Building (8 points)
-6. "Theme.Epic3.Story2" (8 points)
-7. "Theme.Epic4.Story1" (4 points)
-8. "Theme.Epic4.Story2" (4 points)
-9. "Theme.Epic4.Story3" (8 points)
+6. Theme.Epic3.Story2: Web APP Connection (8 points)
+7. Theme.Epic4.Story1: Product Test (4 points)
+8. Theme.Epic4.Story2: Product Refinement (4 points)
+9. Theme.Epic4.Story3: Product Summary (8 points)
 
 ## Icebox
 
-"Theme.Epic2.Story1"
-"Theme.Epic3.Story1"
+1. Theme.Epic2.Story1: Model Fitting 
+2. Theme.Epic3.Story1: Web APP Building
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDI0NDMyOSwtMjk5MTkwNTY2LC01MT
+eyJoaXN0b3J5IjpbMTg2NzA3MTgyMCwtMjk5MTkwNTY2LC01MT
 M2MjczNTMsMjc3MTEwNzcxLDYwNDY1NzA3NiwtODQzNTMxMTk1
 LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMz
 EzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4
