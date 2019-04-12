@@ -3,7 +3,10 @@
 <!-- toc -->
 
 - [Project Charter](#project-charter)
-- [Project Backlog](#project-backlog)
+- [Project Planning](#project-planning)
+- [Backlog](#backlog)
+- [Icebox](#icebox)
+
 
 <!-- tocstop -->
 
@@ -138,8 +141,8 @@ The theme of this product is to help users easily predict overall player scores 
 
 ## Backlog
 
-1. "Theme.Epic1.Story1": Exploratory Data Analysis (4 points) - Planned
-2. "Theme.Epic1.Story2": Data Cleaning (4 points) - Planned
+1. "Theme.Epic1.Story1" (4 points) - Planned
+2. "Theme.Epic1.Story2" (4 points) - Planned
 3. Theme.Epic2.Story1
 4. Theme.Epic2.Story2
 5. Theme.Epic3.Story1
@@ -151,7 +154,7 @@ The theme of this product is to help users easily predict overall player scores 
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc3OTY5NDYsLTI5OTE5MDU2NiwtNT
+eyJoaXN0b3J5IjpbLTEzNzUzMDY1MzAsLTI5OTE5MDU2NiwtNT
 EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
 NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
 MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
