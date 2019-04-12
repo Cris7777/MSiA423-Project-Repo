@@ -91,17 +91,14 @@ Users are available to monitor the process of prediction and recommendation when
 
   Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
-  - [ ] Linear Regression
-  - [ ] Neural Network
-  - [ ] Random Forest
-  - [ ] Support Vector Machine
+  * Linear Regression
+  * Neural Network
+  * Random Forest
+  * Support Vector Machine
   
   MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
-
-
-
-**Week 3-8: Product Building**
+- Epic 3: Product Building
 
 - [ ] Build pipelines
 
@@ -109,7 +106,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 - [ ] Link different parts of the product together
 
-**Week 9-10**
+- Epic 4: Product Refinement
+
 
 - [ ] Test the feasibility of the product 
 
@@ -118,11 +116,11 @@ Users are available to monitor the process of prediction and recommendation when
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzUzMTE5NSw2MTc1NzI4NjAsMjAzMz
-M3NjU1NSwtMjU5OTEzMjA3LC04MjMxMzAzOTUsLTkzNzk0NDAs
-ODAzOTg0NjgzLDE3NzU4MDYzNTAsODQ5MzE3ODk0LDEyNTI2Mz
-Y2NTcsMTk4NjQ4NzI5OCwtMTcwODgyNzQwOSwxMDM0MzE2MzA3
-LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0MywtOD
-U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
-MThdfQ==
+eyJoaXN0b3J5IjpbMTQ0NTM4MTgyMywtODQzNTMxMTk1LDYxNz
+U3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMzEzMDM5
+NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4NDkzMT
+c4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4ODI3NDA5
+LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xOD
+g5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0
+NDIxXX0=
 -->
