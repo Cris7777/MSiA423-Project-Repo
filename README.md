@@ -117,6 +117,12 @@ Users are available to monitor the process of prediction and recommendation when
 - Epic 4: Product Refinement
 
   * Story 1: Product Test  
+    
+    Use sample data to test the feasibility of the product, including:
+    
+      + Accuracy of prediction model
+      + Accuracy of recommendation system
+      + Work flow of the
 
   * Story 2: Product Refinement
   
@@ -128,11 +134,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTE5MDU2NiwtNTEzNjI3MzUzLDI3Nz
-ExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5NSw2MTc1NzI4NjAs
-MjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04MjMxMzAzOTUsLTkzNz
-k0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAsODQ5MzE3ODk0LDEy
-NTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwODgyNzQwOSwxMDM0Mz
-E2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0
-M119
+eyJoaXN0b3J5IjpbLTE3MzU4MDM3NDgsLTI5OTE5MDU2NiwtNT
+EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
+NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
+MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
+ODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwOD
+gyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4
+OF19
 -->
