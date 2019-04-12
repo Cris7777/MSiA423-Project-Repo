@@ -49,7 +49,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Theme
 
-The theme of this proje
+The theme of this product is to help users easily predict overall player scores and choose the best player for their virtual soccer teams.
 
 ### Epics
 
@@ -138,11 +138,12 @@ The theme of this proje
 
 ## Backlog
 
-1. Theme.Epic1.Story1
+1. "Theme.Epic1.Story1" - Planned
+2. "Theme.Epic1.Story1" - Planned
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxMjE4ODYsLTI5OTE5MDU2NiwtNT
+eyJoaXN0b3J5IjpbLTE4MjMwNDI1NzIsLTI5OTE5MDU2NiwtNT
 EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
 NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
 MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
