@@ -51,6 +51,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Epics
 
+- Exploratory Data Analysis
+
 ### Home
 
 This part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
@@ -284,7 +286,7 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NzU5NTU4LDIwMzMzNzY1NTUsLTI1OT
+eyJoaXN0b3J5IjpbNjE3NTcyODYwLDIwMzMzNzY1NTUsLTI1OT
 kxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQwLDgwMzk4NDY4Mywx
 Nzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0OD
 cyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUs
