@@ -122,11 +122,16 @@ Users are available to monitor the process of prediction and recommendation when
     
       + Accuracy of prediction model
       + Accuracy of recommendation system
-      + Work flow of the
+      + Work flow of the product
+      + Work speed of the product
 
   * Story 2: Product Refinement
   
+    Find drawbacks of the product and propose possible refinements correspondingly.
+
   * Story 3: Product Summary
+  
+    Write the final report of 
 
 ## Backlog
 
@@ -134,11 +139,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU4MDM3NDgsLTI5OTE5MDU2NiwtNT
-EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
-NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
-MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
-ODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwOD
-gyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4
-OF19
+eyJoaXN0b3J5IjpbNjc4ODg4ODkwLC0yOTkxOTA1NjYsLTUxMz
+YyNzM1MywyNzcxMTA3NzEsNjA0NjU3MDc2LC04NDM1MzExOTUs
+NjE3NTcyODYwLDIwMzMzNzY1NTUsLTI1OTkxMzIwNywtODIzMT
+MwMzk1LC05Mzc5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0
+OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mj
+c0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODhd
+fQ==
 -->
