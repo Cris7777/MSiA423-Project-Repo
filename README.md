@@ -90,23 +90,23 @@ Users are available to monitor the process of prediction and recommendation when
 - Epic 2: Model Building
 
   Using the given dataset, find the best model to predict player scores and recommend players.
-
-  * Story 1: Dataset Splitting
-
-  Randomly split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
-  * Story 2: Model Fitting
+  * Story 1: Model Fitting
 
-  * Linear Regression
-  * Neural Network
-  * Random Forest
-  * Support Vector Machine
+    Randomly split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
+
+    +  Linear Regression
+    + Neural Network
+    + Random Forest
+    + Support Vector Machine
   
-  * Story 3: Model Comparing  
+  * Story 2: Model Comparing  
   
-  MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
+    MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
 - Epic 3: Product Building
+
+  * Story 1: Model Comparing  
 
 - [ ] Build pipelines
 
@@ -127,11 +127,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIzNzUyMTcsLTUxMzYyNzM1MywyNz
-cxMTA3NzEsNjA0NjU3MDc2LC04NDM1MzExOTUsNjE3NTcyODYw
-LDIwMzMzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mz
-c5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwx
-MjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzND
-MxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkz
-NDNdfQ==
+eyJoaXN0b3J5IjpbMzIzMTMzNzAsLTUxMzYyNzM1MywyNzcxMT
+A3NzEsNjA0NjU3MDc2LC04NDM1MzExOTUsNjE3NTcyODYwLDIw
+MzMzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5ND
+QwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUy
+NjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNj
+MwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDNd
+fQ==
 -->
