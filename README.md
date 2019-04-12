@@ -89,6 +89,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Epic 2: Model Building
 
+
+
   Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
   * Linear Regression
@@ -119,11 +121,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MTEwNzcxLDYwNDY1NzA3NiwtODQzNT
-MxMTk1LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcs
-LTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNj
-M1MCw4NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0x
-NzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OT
-M5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgx
-XX0=
+eyJoaXN0b3J5IjpbLTE0NjQzMjE3NjksMjc3MTEwNzcxLDYwND
+Y1NzA3NiwtODQzNTMxMTk1LDYxNzU3Mjg2MCwyMDMzMzc2NTU1
+LC0yNTk5MTMyMDcsLTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5OD
+Q2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1Nywx
+OTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMT
+c0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAy
+MDNdfQ==
 -->
