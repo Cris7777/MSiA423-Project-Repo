@@ -53,37 +53,37 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Exploratory Data Analysis
 
-  * Data Overview
+  * Story 1: Data Overview
 
     The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
 
-    + Story 1: Descriptive Statistics
+    + Descriptive Statistics
     
         Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
         
-    - [x] Skewness
+    +  Skewness
     
-      Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
+        Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
       
-    - [x] Influential Observations
+    + Influential Observations
     
         Check all observations with extreme values, for example, observations with some attributes of lower than 0 or larger than 100.
 
-  * Data Cleaning
+  * Story 2: Data Cleaning
       
-      - [x] NAs Removing
+      + NAs Removing
        
          Remove observations having NA values for selected variables. 
          
-      - [x] Duplicates Removing
+      + Duplicates Removing
         
         Remove duplicated observations, which are defined as observations sharing the same unique player ID.
         
-      - [x] Outliers Removing
+      + Outliers Removing
       
         Remove all abnormal observations that could have impact on parameters of the model.
       
-      - [x] Invalid Attributes Removing
+      + Invalid Attributes Removing
      
         Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
 
@@ -331,11 +331,11 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM2MTYzODYsNjE3NTcyODYwLDIwMz
-MzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQw
-LDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNj
-M2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMw
-Nyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLT
-g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
-NjE4XX0=
+eyJoaXN0b3J5IjpbLTg2NTEyMjQ2Myw2MTc1NzI4NjAsMjAzMz
+M3NjU1NSwtMjU5OTEzMjA3LC04MjMxMzAzOTUsLTkzNzk0NDAs
+ODAzOTg0NjgzLDE3NzU4MDYzNTAsODQ5MzE3ODk0LDEyNTI2Mz
+Y2NTcsMTk4NjQ4NzI5OCwtMTcwODgyNzQwOSwxMDM0MzE2MzA3
+LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0MywtOD
+U3NzMwMjAzLDg1OTUyMTc4MSwtMTE1MjMyNDQyMSwxMTY4OTg2
+MThdfQ==
 -->
