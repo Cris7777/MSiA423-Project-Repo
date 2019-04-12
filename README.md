@@ -53,9 +53,9 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Epic 1: Exploratory Data Analysis
 
-  * Story 1: Data Overview
-
     The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
+
+  * Story 1: Data Overview
 
     + Descriptive Statistics
     
@@ -89,7 +89,9 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Epic 2: Model Building
 
+  Using the find the best model to predict player scores and recommend players.
 
+  * Story 1: 
 
   Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
@@ -121,7 +123,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQzMjE3NjksMjc3MTEwNzcxLDYwND
+eyJoaXN0b3J5IjpbLTE3NDQxNjY2NTQsMjc3MTEwNzcxLDYwND
 Y1NzA3NiwtODQzNTMxMTk1LDYxNzU3Mjg2MCwyMDMzMzc2NTU1
 LC0yNTk5MTMyMDcsLTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5OD
 Q2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1Nywx
