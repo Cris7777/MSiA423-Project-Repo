@@ -116,9 +116,10 @@ The theme of this product is to help users easily predict overall player scores 
     + Build pipelines
     + Realize all functions of the web APP
   
-  * Story 2: Web APP Connection
+  * Story 2: Transition from Local to AWS
    
     + Link different parts of the web APP together
+    + Move dataset and models to AWS
 
 - Epic 4: Product Refinement
 
@@ -146,7 +147,7 @@ The theme of this product is to help users easily predict overall player scores 
 3. Theme.Epic2.Story1: Model Fitting (4 points) - PLANNED
 4. Theme.Epic2.Story2: Model Comparison (4 points) PLANNED
 5. Theme.Epic3.Story1: Web APP Building (8 points)
-6. Theme.Epic3.Story2: Web APP Connection (8 points)
+6. Theme.Epic3.Story2: Transition from Local to AWS (8 points)
 7. Theme.Epic4.Story1: Product Test (4 points)
 8. Theme.Epic4.Story2: Product Refinement (4 points)
 9. Theme.Epic4.Story3: Product Summary (8 points)
@@ -158,11 +159,11 @@ The theme of this product is to help users easily predict overall player scores 
 3. Theme.Epic4.Story2: Product Refinement
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjQ2NjAzNCwtMjk5MTkwNTY2LC01MT
-M2MjczNTMsMjc3MTEwNzcxLDYwNDY1NzA3NiwtODQzNTMxMTk1
-LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMz
-EzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4
-NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4OD
-I3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4
-XX0=
+eyJoaXN0b3J5IjpbMjAyNTQ5NDc3LC0yNzY0NjYwMzQsLTI5OT
+E5MDU2NiwtNTEzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYs
+LTg0MzUzMTE5NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OT
+EzMjA3LC04MjMxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3
+NzU4MDYzNTAsODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4Nz
+I5OCwtMTcwODgyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNV19
+
 -->
