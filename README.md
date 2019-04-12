@@ -141,15 +141,21 @@ The theme of this product is to help users easily predict overall player scores 
 1. "Theme.Epic1.Story1": Exploratory Data Analysis (4 points) - Planned
 2. "Theme.Epic1.Story2": Data Cleaning (4 points) - Planned
 3. Theme.Epic2.Story1
-4. 
+4. Theme.Epic2.Story2
+5. Theme.Epic3.Story1
+6. Theme.Epic3.Story2
+7. Theme.Epic4.Story1
+8. Theme.Epic4.Story2
+9. Theme.Epic4.Story3
+10. Theme.Epic4.Story4
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDkwODQ1NiwtMjk5MTkwNTY2LC01MT
-M2MjczNTMsMjc3MTEwNzcxLDYwNDY1NzA3NiwtODQzNTMxMTk1
-LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMz
-EzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4
-NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4OD
-I3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4
-XX0=
+eyJoaXN0b3J5IjpbLTExMzc3OTY5NDYsLTI5OTE5MDU2NiwtNT
+EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
+NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
+MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
+ODQ5MzE3ODk0LDEyNTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwOD
+gyNzQwOSwxMDM0MzE2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4
+OF19
 -->
