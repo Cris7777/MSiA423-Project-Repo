@@ -57,7 +57,7 @@ Users are available to monitor the process of prediction and recommendation when
 
     The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
 
-    - [x] Descriptive Statistics
+    + Story 1: Descriptive Statistics
     
         Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
         
@@ -331,7 +331,7 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgyNzUzMzAsNjE3NTcyODYwLDIwMz
+eyJoaXN0b3J5IjpbLTIwMzM2MTYzODYsNjE3NTcyODYwLDIwMz
 MzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQw
 LDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNj
 M2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMw
