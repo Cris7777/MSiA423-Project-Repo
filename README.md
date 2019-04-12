@@ -141,11 +141,11 @@ The theme of this product is to help users easily predict overall player scores 
 
 ## Backlog
 
-1. "Theme.Epic1.Story1" Data Overview (2 points) - Planned
-2. "Theme.Epic1.Story2" (2 points) - Planned
-3. "Theme.Epic2.Story1" (4 points)
-4. "Theme.Epic2.Story2" (4 points)
-5. "Theme.Epic3.Story1" (8 points)
+1. Theme.Epic1.Story1: Data Overview (2 points) - PLANNED
+2. Theme.Epic1.Story2: Data Cleaning (2 points) - PLANNED
+3. Theme.Epic2.Story1: Model Fitting (4 points) - PLANNED
+4. Theme.Epic2.Story2: Model Comparison (4 points) PLANNED
+5. Theme.Epic3.Story1: Web APP Building (8 points)
 6. "Theme.Epic3.Story2" (8 points)
 7. "Theme.Epic4.Story1" (4 points)
 8. "Theme.Epic4.Story2" (4 points)
@@ -157,7 +157,7 @@ The theme of this product is to help users easily predict overall player scores 
 "Theme.Epic3.Story1"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODkwNTMwMCwtMjk5MTkwNTY2LC01MT
+eyJoaXN0b3J5IjpbMTM0NDI0NDMyOSwtMjk5MTkwNTY2LC01MT
 M2MjczNTMsMjc3MTEwNzcxLDYwNDY1NzA3NiwtODQzNTMxMTk1
 LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMz
 EzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4
