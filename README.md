@@ -49,6 +49,8 @@ Users are available to monitor the process of prediction and recommendation when
 
 ### Theme
 
+The theme of this proje
+
 ### Epics
 
 - Epic 1: Exploratory Data Analysis
@@ -107,17 +109,13 @@ Users are available to monitor the process of prediction and recommendation when
 - Epic 3: Product Building
 
   * Story 1: Web APP Building  
+   
     + Build pipelines
     + Realize all functions of the web APP
+  
   * Story 2: Web APP Connection
-    + Link different parts of the web APP t
-    
-
-- [ ] Build pipelines
-
-- [ ] Realize all functions of the product 
-
-- [ ] Link different parts of the product together
+   
+    + Link different parts of the web APP together
 
 - Epic 4: Product Refinement
 
@@ -144,7 +142,7 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAxODI0NzAsLTI5OTE5MDU2NiwtNT
+eyJoaXN0b3J5IjpbLTE4OTAxMjE4ODYsLTI5OTE5MDU2NiwtNT
 EzNjI3MzUzLDI3NzExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5
 NSw2MTc1NzI4NjAsMjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04Mj
 MxMzAzOTUsLTkzNzk0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAs
