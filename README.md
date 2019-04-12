@@ -100,7 +100,7 @@ Users are available to monitor the process of prediction and recommendation when
     + Random Forest
     + Support Vector Machine
   
-  * Story 2: Model Comparing  
+  * Story 2: Model Comparison  
   
     MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
@@ -116,22 +116,21 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Epic 4: Product Refinement
 
+  * Story 1: Product Test  
 
-  * Story 1: Test the feasibility of the product 
-
-- [ ] Optimize the product
-
-- [ ] Write the final report
+  * Story 2: Product Refinement
+  
+  * Story 3: Product Summary
 
 ## Backlog
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMTMzNzAsLTUxMzYyNzM1MywyNzcxMT
-A3NzEsNjA0NjU3MDc2LC04NDM1MzExOTUsNjE3NTcyODYwLDIw
-MzMzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5ND
-QwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUy
-NjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNj
-MwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDNd
-fQ==
+eyJoaXN0b3J5IjpbMTIwNTY3NjMyNCwtNTEzNjI3MzUzLDI3Nz
+ExMDc3MSw2MDQ2NTcwNzYsLTg0MzUzMTE5NSw2MTc1NzI4NjAs
+MjAzMzM3NjU1NSwtMjU5OTEzMjA3LC04MjMxMzAzOTUsLTkzNz
+k0NDAsODAzOTg0NjgzLDE3NzU4MDYzNTAsODQ5MzE3ODk0LDEy
+NTI2MzY2NTcsMTk4NjQ4NzI5OCwtMTcwODgyNzQwOSwxMDM0Mz
+E2MzA3LDUxMDE3NDQyNSwtMjEwNTkzOTY4OCwtMTg4OTAwOTM0
+M119
 -->
