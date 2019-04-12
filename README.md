@@ -109,18 +109,18 @@ Users are available to monitor the process of prediction and recommendation when
 - Epic 4: Product Refinement
 
 
-- [ ] Test the feasibility of the product 
+  * Story 1: Test the feasibility of the product 
 
 - [ ] Optimize the product
 
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTM4MTgyMywtODQzNTMxMTk1LDYxNz
-U3Mjg2MCwyMDMzMzc2NTU1LC0yNTk5MTMyMDcsLTgyMzEzMDM5
-NSwtOTM3OTQ0MCw4MDM5ODQ2ODMsMTc3NTgwNjM1MCw4NDkzMT
-c4OTQsMTI1MjYzNjY1NywxOTg2NDg3Mjk4LC0xNzA4ODI3NDA5
-LDEwMzQzMTYzMDcsNTEwMTc0NDI1LC0yMTA1OTM5Njg4LC0xOD
-g5MDA5MzQzLC04NTc3MzAyMDMsODU5NTIxNzgxLC0xMTUyMzI0
-NDIxXX0=
+eyJoaXN0b3J5IjpbNjA0NjU3MDc2LC04NDM1MzExOTUsNjE3NT
+cyODYwLDIwMzMzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1
+LC05Mzc5NDQwLDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNz
+g5NCwxMjUyNjM2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDks
+MTAzNDMxNjMwNyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4OD
+kwMDkzNDMsLTg1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0
+MjFdfQ==
 -->
