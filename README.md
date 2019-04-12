@@ -53,6 +53,51 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Exploratory Data Analysis
 
+  * Data Overview
+
+    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
+
+    - [x] Descriptive Statistics
+    
+        Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
+        
+    - [x] Skewness
+    
+      Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
+      
+    - [x] Influential Observations
+    
+        Check all observations with extreme values, for example, observations with some attributes of lower than 0 or larger than 100.
+
+  * Data Cleaning
+      
+      - [x] NAs Removing
+       
+         Remove observations having NA values for selected variables. 
+         
+      - [x] Duplicates Removing
+        
+        Remove duplicated observations, which are defined as observations sharing the same unique player ID.
+        
+      - [x] Outliers Removing
+      
+        Remove all abnormal observations that could have impact on parameters of the model.
+      
+      - [x] Invalid Attributes Removing
+     
+        Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
+
+- Model Building
+
+  Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
+  
+  - [ ] Linear Regression
+  - [ ] Neural Network
+  - [ ] Random Forest
+  - [ ] Support Vector Machine
+  
+  MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
+
 ### Home
 
 This part provides a clear and overall description on all players. This part is the main page of the product and enables users to switch to any other function of the product.
@@ -286,11 +331,11 @@ This part recommends actual users for players to choose according to their previ
 - [ ] Write the final report
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NTcyODYwLDIwMzMzNzY1NTUsLTI1OT
-kxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQwLDgwMzk4NDY4Mywx
-Nzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5ODY0OD
-cyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNzQ0MjUs
-LTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIwMyw4NT
-k1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4NjE4LC0xMjc1MDU4
-NTg4XX0=
+eyJoaXN0b3J5IjpbLTEyNDgyNzUzMzAsNjE3NTcyODYwLDIwMz
+MzNzY1NTUsLTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQw
+LDgwMzk4NDY4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNj
+M2NjU3LDE5ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMw
+Nyw1MTAxNzQ0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLT
+g1NzczMDIwMyw4NTk1MjE3ODEsLTExNTIzMjQ0MjEsMTE2ODk4
+NjE4XX0=
 -->
