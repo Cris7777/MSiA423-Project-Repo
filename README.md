@@ -89,16 +89,20 @@ Users are available to monitor the process of prediction and recommendation when
 
 - Epic 2: Model Building
 
-  Using the find the best model to predict player scores and recommend players.
+  Using the given dataset, find the best model to predict player scores and recommend players.
 
   * Story 1: 
 
   Split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
   
+  * Story 2: Model Fitting
+
   * Linear Regression
   * Neural Network
   * Random Forest
   * Support Vector Machine
+  
+  * Story 3: Model Comparing  
   
   MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
 
@@ -123,11 +127,11 @@ Users are available to monitor the process of prediction and recommendation when
 
 ## Icebox
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQxNjY2NTQsMjc3MTEwNzcxLDYwND
-Y1NzA3NiwtODQzNTMxMTk1LDYxNzU3Mjg2MCwyMDMzMzc2NTU1
-LC0yNTk5MTMyMDcsLTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5OD
-Q2ODMsMTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1Nywx
-OTg2NDg3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMT
-c0NDI1LC0yMTA1OTM5Njg4LC0xODg5MDA5MzQzLC04NTc3MzAy
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTUxMzYyNzM1MywyNzcxMTA3NzEsNjA0Nj
+U3MDc2LC04NDM1MzExOTUsNjE3NTcyODYwLDIwMzMzNzY1NTUs
+LTI1OTkxMzIwNywtODIzMTMwMzk1LC05Mzc5NDQwLDgwMzk4ND
+Y4MywxNzc1ODA2MzUwLDg0OTMxNzg5NCwxMjUyNjM2NjU3LDE5
+ODY0ODcyOTgsLTE3MDg4Mjc0MDksMTAzNDMxNjMwNyw1MTAxNz
+Q0MjUsLTIxMDU5Mzk2ODgsLTE4ODkwMDkzNDMsLTg1NzczMDIw
+M119
 -->
