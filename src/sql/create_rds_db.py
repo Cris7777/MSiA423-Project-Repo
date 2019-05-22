@@ -15,6 +15,10 @@ logger = logging.getLogger('create_database')
 
 class Player(Base):
 
+'''
+create a database named 'PredHist' to save user prediction history
+'''
+
     __tablename__ = 'PredHist'
 
     id = Column(Integer, primary_key=True, unique=True, nullable=False)
@@ -50,11 +54,9 @@ def engine_string(RDS = False):
 
 
 def database(args,engine=None):
-    """Creates a database with the data models inherited from `Base` (Tweet and TweetScore).
+    """Creates a database with the data models inherited from `Base` (PredHist).
 
     Args:
-        engine (:py:class:`sqlalchemy.engine.Engine`, default None): SQLAlchemy connection engine.
-            If None, `engine_string` must be provided.
         engine_string (`str`, default None): String defining SQLAlchemy connection URI in the form of
             `dialect+driver://username:password@host:port/database`. If None, `engine` must be provided.
 
