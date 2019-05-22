@@ -1,7 +1,8 @@
-# Prediction and Recommendation on Players for Virtual Soccer Team
+# Soccer Player Class Prediction
 
 <!-- toc -->
-
+- [Running](#running)
+- [Testing](#testing)
 - [Project Charter](#project-charter)
 - [Project Planning](#project-planning)
 - [Backlog](#backlog)
@@ -9,6 +10,44 @@
 
 
 <!-- tocstop -->
+
+```
+├── README.md                         <- You are here
+│
+├── data                              <- Folder that contains data used or generated. subdirectories are tracked by git. 
+│   ├── data1.csv                      <- Data used to generate model, originally from Kaggle
+│
+├── src                               <- Source data for the project 
+│   ├── sql/                          <- SQL source code
+│       ├── create_rds_db.py          <- Create a database to save user history in local database or RDS
+│   ├── load_data_from_fit.py         <- Download data from a Github repo to ../data/ folder
+│   ├── upload_data_to_s3.py          <- Upload data to s3 bucket, AWS credential configurations are required 
+│
+├── test                              <- Files necessary for running model tests
+│   ├── test_load_data_from_git.py    <- Test structures of data downloaded from Github repo
+```
+
+## Running
+- Load data from a Github repo and save it locally under `data` folder
+```bash
+ python load_data_from_fit.py
+ ``` 
+
+- Upload data to s3 bucket
+```bash
+ python upload_data_to_s3.py --input_path <INPUT_LOCAL_PATH> --bucket_name <MY_BUCKET_NAME> --output_path <OUTPUT_S3_PATH>
+ ``` 
+
+- Create database
+```bash
+ python create_rds_db.py --RDS <True FOR RDS SCHEMA>
+ ``` 
+
+## Testing
+All test files are in `test` folder
+```bash
+ py.test
+ ``` 
 
 ## Project Charter 
 
