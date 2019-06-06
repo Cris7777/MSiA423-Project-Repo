@@ -1,0 +1,39 @@
+model:
+  name: soccer player class prediction
+  author: Angela Chen
+  version: A1
+  description:
+  tags:
+    - classifier
+  dependencies: requirements.txt
+load_data_from_git:
+  read_git: 
+    path: data/data.csv
+  load_csv:
+    path: data/data.csv
+preprocess_data:
+  generate_class: 
+    target: Overall
+    response: Class
+  clean_data:
+    drop: [ID, Name,Photo,Preferred.Foot,Nationality,Overall,Potential,Club,Position,Jersey.Number]
+choose_features:
+  select_feature: 
+    path: data/clean_data.csv
+    target: Class
+train_data:
+  split_data:
+    path: data/model_data.csv
+    test_size: 0.3
+    target: Class
+  train:
+    method: decision_tree
+evaluate_model:
+  evaluate_model:
+    modelpath: models/model.pkl
+    xtestpath: data/xtest.csv
+    ytestpath: data/ytest.csv
+
+
+  
+
