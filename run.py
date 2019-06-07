@@ -88,7 +88,7 @@ if __name__ == '__main__':
     evaluate.set_defaults(func = run_evaluate)
 
     run = subparsers.add_parser("app", description="Run Flask app")
-    run.add_argument('--RDS', default = 'False', help = 'True to run on RDS, false to run on local')
+    #run.add_argument('--RDS', default = 'False', help = 'True to run on RDS, false to run on local')
     run.set_defaults(func = run_app)
 
     args = parser.parse_args()
