@@ -17,13 +17,13 @@ app.config.from_pyfile('../config/flask_config.py')
 # Define LOGGING_CONFIG in flask_config.py - path to config file for setting
 # up the logger (e.g. config/logging/local.conf)
 
-#logging.config.fileConfig(app.config["LOGGING_CONFIG"])
-#logger = logging.getLogger("soccer-player")
-#logger.debug('Test log')
+logging.config.fileConfig(app.config["LOGGING_CONFIG"])
+logger = logging.getLogger("soccer-player")
+logger.debug('Test log')
 
 # Initialize the database
 db = SQLAlchemy(app)
-print(db)
+#print(db)
 
 
 

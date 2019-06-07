@@ -4,6 +4,7 @@ import yaml
 from sqlalchemy.orm import sessionmaker
 import logging
 import os
+import sqlalchemy as sql
 
 
 # class Timer:
@@ -66,7 +67,7 @@ def get_connection(engine_string = None):
                                 format(conn_type, user, password, host, port, DATABASE_NAME)
     return engine_string
 
-def get_session(engine = None, engine_string = None):
+def get_session(engine_string = None):
     """
     Args:
         engine_string: SQLAlchemy connection string in the form of:
@@ -75,11 +76,11 @@ def get_session(engine = None, engine_string = None):
         SQLAlchemy session
     """
 
-    if engine is None and engine_string is None:
-        return ValueError("`engine` or `engine_string` must be provided")
-    #elif engine is None:
-    #    engine = create_connection(engine_string=engine_string)
-
+    if engine_string is None:
+        return ValueError("engine_string` must be provided")
+   #elif engine is None:
+    #    engine = get_connection(engine_string=engine_string)
+    engine = sql.create_engine(engine_string)
     Session = sessionmaker(bind=engine)
     session = Session()
 

@@ -57,7 +57,7 @@ def create_db(args):
     Base.metadata.create_all(engine)
     logger.info('database created')
 
-    session = get_session(engine=engine, engine_string=engine_string)
+    session = get_session(engine_string=engine_string)
 
     player = Player(Value = args.Value, Reactions = args.Reactions, Composure = args.Composure, Age = args.Age, 
                     ShortPassing = args.ShortPassing, Vision = args.Vision, LongPassing = args.LongPassing)
@@ -79,8 +79,7 @@ def add_soccer(args):
         engine_string = get_connection()
     else:
         engine_string = args.enging_string
-    return engine_string
-
+    
     session = get_session(engine_string=engine_string)
 
     Value = int(args.Value)
@@ -97,13 +96,13 @@ def add_soccer(args):
 
     X = pd.DataFrame({'Reactions':[Reactions], 'Composure':[Composure], 'Vision': [Vision],
                     'ShortPassing': [ShortPassing], 'LongPassing': [LongPassing], 'Value':[Value], 'Age':[Age]})
-    print(X)
+    #print(X)
     Class = model.predict(X)
     if Class == 0:
         Output = 'Bad'
     else:
         Output = 'Good'
-    print(Class)
+    #print(Class)
     player = Player(Value = args.Value, Reactions = args.Reactions, Composure = args.Composure, Age = args.Age, 
                     ShortPassing = args.ShortPassing, Vision = args.Vision, LongPassing = args.LongPassing, Output = Output)
     session.add(player)

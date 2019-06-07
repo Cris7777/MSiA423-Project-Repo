@@ -20,11 +20,7 @@ logger = logging.getLogger("run-cbest-classifier")
 logger.debug('Test log')
 
 def run_app(args):
-    RDS = eval(args.RDS)
-    if not RDS:
-        app.run(debug=app.config["DEBUG"], port=app.config["PORT"], host=app.config["HOST"])
-    else:
-        app.run(debug=app.config["DEBUG"], port=app.config["PORT"], host=app.config["HOST"])
+    app.run(debug=app.config["DEBUG"], port=app.config["PORT"], host=app.config["HOST"])
 
 if __name__ == '__main__':
 
