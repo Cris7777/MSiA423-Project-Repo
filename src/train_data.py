@@ -32,19 +32,19 @@ def train(X_train, y_train, method = None, **kwargs):
     if method == 'logistic_regression':
         glm = LogisticRegression()
         train_model = glm.fit(X_train,y_train)
-        #logger.info('logistic regression fitted')
+        logger.info('logistic regression fitted')
         return train_model
 
     elif method == 'random_forest':
         rf = RandomForestClassifier(random_state = 42)
         train_model = rf.fit(X_train, y_train)
-        #logger.info('random forest fitted')
+        logger.info('random forest fitted')
         return train_model
 
     elif method == 'decision_tree':
         dt = DecisionTreeClassifier(random_state = 42)
         train_model = dt.fit(X_train,y_train)
-        #logger.info('decision tree fitted')
+        logger.info('decision tree fitted')
         return train_model
     
 def run_train(args):

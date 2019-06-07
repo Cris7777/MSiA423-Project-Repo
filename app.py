@@ -12,19 +12,20 @@ import pandas as pd
 app = Flask(__name__)
 
 # Configure flask app from flask_config.py
-app.config.from_pyfile('../config/flask_config.py')
+app.config.from_pyfile('config/flask_config.py')
 
 # Define LOGGING_CONFIG in flask_config.py - path to config file for setting
 # up the logger (e.g. config/logging/local.conf)
 
 logging.config.fileConfig(app.config["LOGGING_CONFIG"])
+#print(app.config)
 logger = logging.getLogger("soccer-player")
 logger.debug('Test log')
 
 # Initialize the database
 db = SQLAlchemy(app)
+#print('db is')
 #print(db)
-
 
 
 @app.route('/')
@@ -36,10 +37,12 @@ def index():
     """
 
     try:
+        #player = db.session.query(Player)
         player = db.session.query(Player).order_by(Player.id.desc()).limit(1).all()#limit(app.config["MAX_ROWS_SHOW"]).all()
         logger.debug("servise page accessed")
         #return render_template('index.html', players = player)
         return render_template('services.html', players = player)
+        #return render_template('services.html', players = player)
     except:
         traceback.print_exc()
         logger.warning("Not able to display players, error page returned")

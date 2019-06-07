@@ -37,9 +37,9 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item active"><a href="{{url_for('home')}}" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="{{url_for('about')}}" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="{{url_for('services')}}" class="nav-link">Services</a></li>
           <!--li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
@@ -48,7 +48,7 @@
               </div>
           </li-->
           <!--li class="nav-item"><a href="blog.html" class="nav-link">Case Studies</a></li-->
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="{{url_for('contact')}}" class="nav-link">Contact</a></li>
           <!--li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get in touch</span></a></li-->
         </ul>
       </div>
@@ -70,7 +70,7 @@
       </div>
     </div>
     
-    <div class="bg-light">
+    <!--div class="bg-light">
     <section class="ftco-section-featured ftco-animate">
       <div class="container-fluid" data-scrollax-parent="true">
         <div class="row no-gutters d-flex align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
@@ -80,17 +80,17 @@
               <div class="text-1 p-4 d-flex align-items-center">
                 <h3>The Verge<br><span class="tag">Website</span></h3>
               </div>
-              <img src="images/image_1.jpg" class="img-fluid" alt="">
+              <img src="static/images/image_1.jpg" class="img-fluid" alt="">
               <div class="text p-4 d-flex align-items-center">
                 <div class="user d-flex align-items-center">
-                  <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+                  <div class="user-img mr-3" style="background-image: url(static/images/person_1.jpg);"></div>
                   <h3>John Bruce <br><span class="position">Designer</span></h3>
                 </div>
               </div>
             </a>
-          </div>
+          </div-->
           
-          <div class="col-md-6">
+          <!--div class="col-md-6">
             <div class="row no-gutters">
               <div class="col-md-12">
                 <div class="row no-gutters d-flex align-items-end">
@@ -100,10 +100,10 @@
                       <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Racks<br><span class="tag">Website</span></h3>
                       </div>
-                      <img src="images/image_5.jpg" class="img-fluid" alt="">
+                      <img src="static/images/image_5.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="user-img mr-3" style="background-image: url(static/images/person_1.jpg);"></div>
                           <h3>John Bruce <br><span class="position">Designer</span></h3>
                         </div>
                       </div>
@@ -115,10 +115,10 @@
                       <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Zendesk<br><span class="tag">Website</span></h3>
                       </div>
-                      <img src="images/image_4.jpg" class="img-fluid" alt="">
+                      <img src="static/images/image_4.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="user-img mr-3" style="background-image: url(static/images/person_1.jpg);"></div>
                           <h3>John Bruce <br><span class="position">Designer</span></h3>
                         </div>
                       </div>
@@ -126,19 +126,19 @@
                   </div>
                   
                 </div>
-              </div>
+              </div-->
 
-              <div class="col-md-12">
+              <!--div class="col-md-12">
                 <div class="row no-gutters d-flex align-items-start">
                   <div class="col-md-8">
                     <a href="#" class="featured-img">
                       <div class="text-1 p-4 d-flex align-items-center">
                         <h3>Curator<br><span class="tag">Website</span></h3>
                       </div>
-                      <img src="images/image_6.jpg" class="img-fluid" alt="">
+                      <img src="static/images/image_6.jpg" class="img-fluid" alt="">
                       <div class="text p-4 d-flex align-items-center">
                         <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="user-img mr-3" style="background-image: url(static/images/person_1.jpg);"></div>
                           <h3>John Bruce <br><span class="position">Designer</span></h3>
                         </div>
                       </div>
@@ -181,22 +181,22 @@
         </div>
         <div class="row mt-5 d-flex justify-content-center">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 12 years of experience in designing websites and mobile apps.</h2>
+            <h2 class="h1">Soccer analyst with more than 12 years experiences of sports analytics specializing in soccer.</h2>
             <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p>
           </div>
         </div>
       </div>
     </section>
-    </div>
+    </div-->
     
   
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
+          <div class="col-md-7 text-center heading-section ftco-animate">
             <span class="subheading">Our Services</span>
-            <h2 class="mb-4">Web &amp; Mobile app design, bring your ideas to life</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <h2 class="mb-6">Soccer player classifier,<br>bring best stars to your club!</h2>
+            <p>classify soccer players to worth buying class and not worth buying class with designated player attributes</p>
           </div>
         </div>
         <div class="row">
@@ -204,8 +204,8 @@
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Strategy</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Detection</h3>
+                <p>Detect all worth-buying players at a glance.</p>
               </div>
             </div>      
           </div>
@@ -213,8 +213,8 @@
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Stategy</h3>
+                <p>Build strategies on player transactions to buy best players with least money.</p>
               </div>
             </div>      
           </div>
@@ -222,8 +222,8 @@
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Development</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Extension</h3>
+                <p>Planning on expanding to other sports.</p>
               </div>
             </div>    
           </div>
@@ -233,7 +233,7 @@
               <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Help &amp; Supports</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <p>Cotinuous and reliable support even after player transaction.</p>
               </div>
             </div>      
           </div>
@@ -264,7 +264,7 @@
       </div>
     </section>
 
-    <section class="ftco-section">
+    <!--section class="ftco-section">
       <div class="container">
         <div class="row no-gutters justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -309,7 +309,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section-->
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -317,7 +317,7 @@
           <div class="col-md-7 text-center heading-section ftco-animate">
             <span class="subheading">Customer Says</span>
             <h2 class="mb-4">Our satisfied customer says</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p>Our profession is highly acknowledged by customers, who are mostly top soccer clubs and players.</p>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -325,35 +325,35 @@
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(static/images/yifang.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="mb-5">Among several candidates, CBEST.com finds that Carrasco is the best fit for the team. Carrasco is now the top scorer of the team!</p>
+                    <p class="name">Dalian Yifang Football Club</p>
+                    <span class="position">8-time China Super League Champion</span>
                   </div>
                 </div>
               </div>
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(static/images/ronaldo.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Interface Designer</span>
+                    <p class="mb-5">When I can not decide which club to transfer to, CBEST.com suggests Juventus for me. I enjoy my time at the new club.</p>
+                    <p class="name">Cristiano Ronaldo</p>
+                    <span class="position">2016 European Cup Champion <br> 5-time Ballon D'or Winner <br> 5-time UEFA Champions League Champion </span>
                   </div>
                 </div>
               </div>
-              <div class="item text-center">
+              <!--div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(static/images/liverpool.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
@@ -378,18 +378,18 @@
                     <span class="position">Web Developer</span>
                   </div>
                 </div>
-              </div>
+              </div-->
               <div class="item text-center">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-4" style="background-image: url(static/images/liverpool.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">System Analytics</span>
+                    <p class="mb-5">CBEST.com helps the decision on selling former goal keeper, Karius, which helps us on winning the champions league.</p>
+                    <p class="name">Liverpool Football Club</p>
+                    <span class="position">2019 UEFA Champions League Champion</span>
                   </div>
                 </div>
               </div>
@@ -404,7 +404,7 @@
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
             <h2>Our achievements</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p>Over 500 successful cases within 8 years of running time.</p>
           </div>
         </div>
         <div class="row">
@@ -419,16 +419,16 @@
           <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18 text-center">
               <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Amazing preset options to be mixed and combined</span>
+                <strong class="number" data-number="1000000000">0</strong>
+                <span>Euro pounds involved in player market</span>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18 text-center">
               <div class="text">
-                <strong class="number" data-number="8000">0</strong>
-                <span>Average response time on live chat support channel</span>
+                <strong class="number" data-number="80">0</strong>
+                <span>Percent of return rate for customers</span>
               </div>
             </div>
           </div>
@@ -436,7 +436,7 @@
       </div>
     </section>
 
-    <section class="ftco-section bg-light">
+    <!--section class="ftco-section bg-light">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -490,27 +490,25 @@
           </div>
         </div>
       </div>
-    </section>
+    </section-->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Snipp.</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">CBest</h2>
+              <p>Dedicated to find better soccer players</p>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-5">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">Case studies</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
-                <li><a href="#" class="py-2 d-block">Portfolio</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
+                <li><a href="{{url_for('home')}}" class="py-2 d-block">Home</a></li>
+                <li><a href="{{url_for('about')}}" class="py-2 d-block">About</a></li>
+                <li><a href="{{url_for('services')}}" class="py-2 d-block">Services</a></li>
+                <li><a href="{{url_for('contact')}}" class="py-2 d-block">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -518,10 +516,10 @@
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Contact Information</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">198 West 21th Street, Suite 721 New York NY 10016</a></li>
-                <li><a href="#" class="py-2 d-block">+ 1235 2355 98</a></li>
-                <li><a href="#" class="py-2 d-block">info@yoursite.com</a></li>
-                <li><a href="#" class="py-2 d-block">email@email.com</a></li>
+                <li><a href="#" class="py-2 d-block">2311 Campus Drive, Suite 1400 Evanston IL 60208</a></li>
+                <li><a href="#" class="py-2 d-block">+1 198 502 0505</a></li>
+                <li><a href="#" class="py-2 d-block">info@cbest.com</a></li>
+                <!--li><a href="#" class="py-2 d-block">@cbest.com</a></li-->
               </ul>
             </div>
           </div>
@@ -539,7 +537,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
@@ -564,7 +562,6 @@
   <script src="static/js/aos.js"></script>
   <script src="static/js/jquery.animateNumber.min.js"></script>
   <script src="static/js/bootstrap-datepicker.js"></script>
-  <script src="static/js/jquery.timepicker.min.js"></script>
   <script src="static/js/particles.min.js"></script>
   <script src="static/js/particle.js"></script>
   <script src="static/js/scrollax.min.js"></script>

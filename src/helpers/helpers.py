@@ -78,8 +78,6 @@ def get_session(engine_string = None):
 
     if engine_string is None:
         return ValueError("engine_string` must be provided")
-   #elif engine is None:
-    #    engine = get_connection(engine_string=engine_string)
     engine = sql.create_engine(engine_string)
     Session = sessionmaker(bind=engine)
     session = Session()

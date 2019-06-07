@@ -1,7 +1,8 @@
-.PHONY: venv create_db load_data preprocess_data choose_feature train_data evaluate_model clean clean-env
+.PHONY: venv create_db set_db load_data preprocess_data choose_feature train_data evaluate_model #test app clean clean-env
 
 all: venv create_db load_data preprocess_data choose_feature train_data evaluate_model clean clean-env
 
+#create and activate new virtual environment
 cloud-env/bin/activate: requirements.txt
 	pip install virtualenv
 	test -d cloud-env || virtualenv cloud-env
@@ -43,3 +44,10 @@ clean-env:
 #Run the Flask application
 app:
 	python run.py app
+
+#unit tests
+test:
+	py.test
+
+set_db:
+	export SQLALCHEMY_DATABASE_URI='sqlite:///data/predhist.db'
