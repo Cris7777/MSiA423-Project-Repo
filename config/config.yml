@@ -27,7 +27,7 @@ train_data:
     test_size: 0.3
     target: Class
   train:
-    method: decision_tree
+    method: decision_tree #choose method from logistic_regression, random_forest and decision_tree
 evaluate_model:
   evaluate_model:
     modelpath: models/model.pkl
