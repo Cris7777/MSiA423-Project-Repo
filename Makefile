@@ -33,6 +33,12 @@ train_data:
 evaluate_model:
 	python run.py evaluate_model
 
+ingest_data_r:
+	python run.py ingest_data --RDS True
+
+ingest_data_l:
+	python run.py ingest_data --RDS False
+
 #clean all temporary data
 clean:
 	. cloud-env/bin/activate; rm data/clean_data.csv
