@@ -37,7 +37,7 @@ if __name__ == '__main__':
     create.add_argument('--Vision', default = '89', help = 'Vision score of player with base of 100')
     create.add_argument('--LongPassing', default = '92', help = 'LongPassingtion score of player with base of 100')
     create.add_argument('--Output', default = None, help = 'Class of predicton, good or bad')
-    create.add_argument('--enging_string', default = 'sqlite:///data/predhist.db', help = 'path to save database')
+    create.add_argument('--enging_string', default = 'sqlite:///data/PredHist.db', help = 'path to save database')
     create.add_argument('--RDS', default = 'True', help = 'True to use RDS')
     create.set_defaults(func = create_db)
 
@@ -51,7 +51,7 @@ if __name__ == '__main__':
     ingest.add_argument('--Vision', default = '100', help = 'Vision score of player with base of 100')
     ingest.add_argument('--LongPassing', default = '100', help = 'reacLongPassingtion score of player with base of 100')
     #ingest.add_argument('--Output', default = None, help = 'Class of predicton, good or bad')
-    ingest.add_argument('--enging_string', default = 'sqlite:///data/predhist.db', help = 'path to save database')
+    ingest.add_argument('--enging_string', default = 'sqlite:///data/PredHist.db', help = 'path to save database')
     ingest.add_argument('--RDS', default = 'True', help = 'True to use RDS')
     ingest.set_defaults(func = add_soccer)
 

@@ -7,7 +7,7 @@ import pandas as pd
 import os
 import argparse
 import pickle
-from src.helpers.helpers import get_session
+from src.helpers.helpers import get_session, get_connection
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
 logger = logging.getLogger('add_player')
