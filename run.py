@@ -13,7 +13,7 @@ from src.choose_features import run_choose
 from src.train_data import run_train
 from src.evaluate_model import run_evaluate
 from src.add_player import create_db, add_soccer
-from app_run import app, db
+from app import app, db
 
 #app.config.from_pyfile('../config/flask_config.py')
 logging.config.fileConfig(app.config["LOGGING_CONFIG"])

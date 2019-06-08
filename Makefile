@@ -1,4 +1,4 @@
-.PHONY: venv create_db set_db load_data preprocess_data choose_feature train_data evaluate_model test app clean clean-env
+.PHONY: venv create_db_r create_db_l set_db load_data preprocess_data choose_feature train_data evaluate_model test app clean clean-env
 
 #all: venv create_db load_data preprocess_data choose_feature train_data evaluate_model clean clean-env
 
@@ -12,7 +12,10 @@ cloud-env/bin/activate: requirements.txt
 venv: cloud-env/bin/activate
 
 #create local database with rds = False or rds table with rds = True
-create_db:
+create_db_r:
+	python run.py create_db --RDS True
+
+create_db_l:
 	python run.py create_db --RDS False
 
 load_data:
@@ -52,3 +55,8 @@ test:
 #set global database path
 set_db:
 	export SQLALCHEMY_DATABASE_URI='sqlite:///data/predhist.db'
+
+
+
+
+		
