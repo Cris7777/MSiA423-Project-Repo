@@ -3,10 +3,11 @@ import yaml
 import argparse
 import logging
 import statistics
-from src.load_data_from_git import load_csv
+from src.load_data import load_csv
 
-logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('preprocess_data')
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
 
 def generate_class(df, target = None, response = None, **kwargs):
     classification = []

@@ -7,13 +7,13 @@ To understand different arguments, run `python run.py --help`
 """
 import argparse
 import logging.config
-from src.load_data_from_git import run_load
+from src.load_data import run_load
 from src.preprocess_data import run_class
 from src.choose_features import run_choose
 from src.train_data import run_train
 from src.evaluate_model import run_evaluate
 from src.add_player import create_db, add_soccer
-from app import app, db
+from app import app
 
 logging.config.fileConfig(app.config["LOGGING_CONFIG"])
 logger = logging.getLogger("run-cbest-classifier")

@@ -2,10 +2,11 @@ import pandas as pd
 import yaml
 import argparse
 import logging
-from src.load_data_from_git import load_csv
+from src.load_data import load_csv
 
-logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('choose_features')
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
 
 def select_feature(path = None, target = None, **kwargs):
     model = pd.read_csv(path)

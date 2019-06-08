@@ -9,8 +9,9 @@ import argparse
 import pickle
 from src.helpers.helpers import get_session, get_connection
 
-logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('add_player')
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
 
 Base = declarative_base()
 
@@ -108,4 +109,3 @@ def add_soccer(args):
     logger.info("player added with info: Value: %s, Reactions: %s, Composure: %s, Age: %s, ShortPassing: %s, Vision: %s, LongPassing: %s, Output: %s", 
                 args.Value, args.Reactions, args.Composure, args.Age, args.ShortPassing, args.Vision, args.LongPassing, Output)
     session.close()    
-

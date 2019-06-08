@@ -6,6 +6,10 @@ import logging
 import os
 import sqlalchemy as sql
 
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
+
 def get_connection():
     conn_type = "mysql+pymysql"
     user = os.environ.get("MYSQL_USER")

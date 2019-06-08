@@ -6,9 +6,13 @@ model:
   tags:
     - classifier
   dependencies: requirements.txt
-load_data_from_git:
-  read_git: 
+load_data:
+  read_data: 
     path: data/data.csv
+  upload_data:
+    input_path: data/data.csv
+    bucket_name: nw-sichen
+    output_path: 423project/data.csv
   load_csv:
     path: data/data.csv
 preprocess_data:

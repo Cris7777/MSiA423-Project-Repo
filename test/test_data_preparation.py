@@ -1,6 +1,11 @@
 import yaml
 import pandas as pd
 
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
+
+
 with open('config/config.yml', 'r') as f:
     config = yaml.load(f)
 
