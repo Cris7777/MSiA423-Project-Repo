@@ -58,6 +58,9 @@ app:
 test:
 	py.test
 
+test-env:
+	sudo apt install python-pytest
+
 
 
 
