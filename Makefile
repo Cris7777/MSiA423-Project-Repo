@@ -52,10 +52,6 @@ app:
 test:
 	py.test
 
-#set global database path
-set_db:
-	export SQLALCHEMY_DATABASE_URI='sqlite:///data/predhist.db'
-
 
 
 

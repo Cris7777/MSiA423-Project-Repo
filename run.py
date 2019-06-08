@@ -15,7 +15,6 @@ from src.evaluate_model import run_evaluate
 from src.add_player import create_db, add_soccer
 from app import app, db
 
-#app.config.from_pyfile('../config/flask_config.py')
 logging.config.fileConfig(app.config["LOGGING_CONFIG"])
 logger = logging.getLogger("run-cbest-classifier")
 logger.debug('Test log')

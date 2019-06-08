@@ -4,7 +4,6 @@ import logging.config
 from flask import Flask
 from src.add_player import Player
 from flask_sqlalchemy import SQLAlchemy
-#from SQLAlchemy import desc
 import pickle
 import pandas as pd
 
