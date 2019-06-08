@@ -13,31 +13,31 @@ venv: cloud-env/bin/activate
 
 #create local database with rds = False or rds table with rds = True
 create_db_r:
-	python run.py create_db --RDS True
+	. cloud-env/bin/activate; python run.py create_db --RDS True
 
 create_db_l:
-	python run.py create_db --RDS False
+	. cloud-env/bin/activate; python run.py create_db --RDS False
 
 load_data:
-	python run.py load_data
+	. cloud-env/bin/activate; python run.py load_data
 
 preprocess_data:
-	python run.py preprocess_data
+	. cloud-env/bin/activate; python run.py preprocess_data
 
 choose_feature:
-	python run.py choose_feature
+	. cloud-env/bin/activate; python run.py choose_feature
 
 train_data:
-	python run.py train_data
+	. cloud-env/bin/activate; python run.py train_data
 
 evaluate_model:
-	python run.py evaluate_model
+	. cloud-env/bin/activate; python run.py evaluate_model
 
 ingest_data_r:
-	python run.py ingest_data --RDS True
+	. cloud-env/bin/activate; python run.py ingest_data --RDS True
 
 ingest_data_l:
-	python run.py ingest_data --RDS False
+	. cloud-env/bin/activate; python run.py ingest_data --RDS False
 
 #clean all temporary data
 clean:
@@ -52,7 +52,7 @@ clean-env:
 
 #Run the Flask application
 app:
-	python run.py app
+	. cloud-env/bin/activate; python run.py app
 
 #unit tests
 test:

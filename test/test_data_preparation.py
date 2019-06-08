@@ -1,5 +1,6 @@
 import yaml
 import pandas as pd
+import logging
 
 logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
                         format="%(asctime)-15s %(levelname)-8s %(message)s")
@@ -11,7 +12,7 @@ with open('config/config.yml', 'r') as f:
 
 def test_load_data():
     #df = pd.read_csv(path, header = 0)
-    path = config['load_data_from_git']['load_csv']['path']
+    path = config['load_data']['load_csv']['path']
     df = pd.read_csv(path, header = 0)
     row = df.shape[0]
     col = df.shape[1]
