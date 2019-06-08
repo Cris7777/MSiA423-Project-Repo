@@ -8,7 +8,7 @@ import os
 import argparse
 #from src.helpers.helpers import get_session
 import pickle
-from src.helpers.helpers import get_connection, get_session
+from src.helpers.helpers import get_session
 #from config.flask_config import RDS_SQLALCHEMY_DATABASE_URI
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
