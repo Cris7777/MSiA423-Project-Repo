@@ -29,7 +29,7 @@ def run_class(args):
     with open(args.config, 'r') as f:
         config = yaml.load(f)
 
-    df = load_csv(**config['load_data_from_git']['load_csv'])
+    df = load_csv(**config['load_data']['load_csv'])
     df = generate_class(df, **config['preprocess_data']['generate_class'])
     logger.info('data preprocess completed')
 
