@@ -1,4 +1,4 @@
-.PHONY: venv create_db_r create_db_l set_db load_data preprocess_data choose_feature train_data evaluate_model test app clean clean-env
+.PHONY: venv create_db_r create_db_l set_db load_data preprocess_data choose_feature train_data evaluate_model test app clean clean-pyc clean-env
 
 #all: venv create_db load_data preprocess_data choose_feature train_data evaluate_model clean clean-env
 
@@ -57,8 +57,9 @@ app:
 test:
 	py.test
 
-test-env:
-	sudo apt install python-pytest
+clean-pyc:
+	find . -name '*.pyc' -exec rm -f {} +
+	rm -rf .pytest_cache
 
 
 
