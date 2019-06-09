@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/basic.css" rel="stylesheet">
+</head>
+
+<body>
+    <h3>
+         <a href = "{{ url_for('index') }}">CBest Soccer Player Classifier</a>
+    </h3>
+
+    <hr/>
+    <table>
+         <thead>
+            <tr>
+               <th>Value</th>
+               <th>Reactions</th>
+               <th>Composure</th>
+               <th>Age</th>
+               <th>ShortPassing</th>
+               <th>Vision</th>
+               <th>LongPassing</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            {% for player in players %}
+               <tr>
+                   <td>{{ player.Value }}</td>
+                   <td>{{ player.Reactions }}</td>
+                   <td>{{ player.Composure }}</td>
+                   <td>{{ player.Age }}</td>
+                   <td>{{ player.ShortPassing }}</td>
+                   <td>{{ player.Vision }}</td>
+                   <td>{{ player.LongPassing }}</td>
+               </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+      <form action="{{ url_for('add_entry') }}" method=post class=add-entry>
+      <dl>
+        <input type=text size=15 name=Value placeholder="Value">
+        <input type=text size=15 name=Reactions placeholder="Reactions">
+        <input type=text size=15 name=Composure placeholder="Composure">
+        <input type=text size=15 name=Age placeholder="Age">
+        <input type=text size=15 name=ShortPassing placeholder="ShortPassing">
+        <input type=text size=15 name=Vision placeholder="Vision">
+        <input type=text size=15 name=LongPassing placeholder="LongPassing">
+        <input type=submit value=Add>
+      </dl>
+    </form>
+
+</body>
+</html>

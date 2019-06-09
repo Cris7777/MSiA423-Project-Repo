@@ -1,208 +1,346 @@
+
 # Soccer Player Class Prediction
 
 <!-- toc -->
-- [Running](#running)
+- [Configuring Environment](#configuring-environment)
+- [Loading Data and Training Model](#loading-data-and-training-model)
+- [Setting Database](#setting-database)
+- [Running Flask APP](#running-flask-app)
 - [Testing](#testing)
-- [Project Charter](#project-charter)
-- [Project Planning](#project-planning)
-- [Backlog](#backlog)
-- [Icebox](#icebox)
-
-
+- [Cleaning](#cleaning)
 <!-- tocstop -->
 
 ```
 ├── README.md                         <- You are here
 │
-├── data                              <- Folder that contains data used or generated. subdirectories are tracked by git. 
-│   ├── data1.csv                      <- Data used to generate model, originally from Kaggle
+├── config                            <- Configure yaml and flask
+│   ├── logging                       <- Files of configurations for python loggers
+│   ├── congig.yml                    <- Yaml file for loading data and training model
+│   ├── flask_config.py               <- Flask configuration for web app
+├── data                              <- Contains data used or generated
 │
+├── docs                              <- Default Sphinx project; see sphinx-doc.org for details.
+├── figures                           <- Generate graphics and figures to be used in reporting
+├── models                            <- Folder for model and model evaluation
+├── notebooks
+│   ├── develop                       <- Current notebooks being used in development
+│   ├── deliver                       <- Notebooks shared with others
+│   ├── archive                       <- Develop notebooks no longer being used
+│   ├── EDA and Model Training.ipynb  <- Template notebook for analysis
 ├── src                               <- Source data for the project 
-│   ├── sql/                          <- SQL source code
-│       ├── create_rds_db.py          <- Create a database to save user history in local database or RDS
-│   ├── load_data_from_fit.py         <- Download data from a Github repo to ../data/ folder
-│   ├── upload_data_to_s3.py          <- Upload data to s3 bucket, AWS credential configurations are required 
+│   ├── sql                           <- SQL source code
+│   ├── add_player.py                 <- Create a database and ingest data with prediction either locally or on RDS
+│   ├── load_data.py                  <- Download data to the repository and upload data to s3 bucket, AWS credential configurations are required 
+|	├── preprocess_data.py	          <- Add response to data and save new dataset
+|	├── choose_features.py	          <- Select features for training
+|	├── train_data.py	              <- Train model
+|	├── evaluate_model.py	          <- Evaluate model with confusion matrix and misclassification rate
 │
-├── test                              <- Files necessary for running model tests
-│   ├── test_load_data_from_git.py    <- Test structures of data downloaded from Github repo
+├── test                              <- Folder necessary for running model tests
+│   ├── test_data_preparation.py      <- Test data acquisition, pre-process feature engineering
+│   ├── test_model.py                 <- Test model fitting
+├── run.py                            <- Use flask wrapper to run the model
+Execute of one or more of the src scripts
+├── app.py                            <- Folder necessary for running model tests
+├── requirements.txt                  <- Python package dependencies 
 ```
 
-## Running
-- Load data from a Github repo and save it locally under `data` folder
+Run the command
 ```bash
- python load_data_from_fit.py
- ``` 
+cd <Repo-Path> 
+```
+for following operations.
 
-- Upload data to s3 bucket
-```bash
- python upload_data_to_s3.py --input_path <INPUT_LOCAL_PATH> --bucket_name <MY_BUCKET_NAME> --output_path <OUTPUT_S3_PATH>
- ``` 
+## Configuring Environment
 
-- Create database
+The  `requirements.txt`  file contains the packages required to run the model code. An environment can be set up in three ways. 
+
+#### With  `virtualenv`
+
 ```bash
- python create_rds_db.py --RDS <True FOR RDS SCHEMA>
- ``` 
+pip install virtualenv
+virtualenv cbest
+source cbest/bin/activate
+pip install -r requirements.txt
+```
+
+#### With  `conda`
+
+```bash
+conda create -n cbest python=3.7
+conda activate cbest
+pip install -r requirements.txt
+```
+
+#### With  `make`
+
+```bash
+ make venv
+```
+
+## Loading Data and Training Model
+
+The dataset is originally from Kaggle, with over 10,000 players and 80 attributes from FIFA19.
+
+### 1. Loading Data
+
+Run the command
+
+```bash
+make load_data
+```
+
+or
+
+```bash
+python run.py load_data
+```
+
+to load data into the repository and upload data to your own S3 bucket. Data will be landed to `data/data.csv` by default.
+
+### 2. Preprocessing Data
+
+Run the command
+
+```bash
+make preprocess_data
+```
+
+or
+
+```bash
+python run.py preprocess_data
+```
+
+to add a responsive variable of binary class to the last column of the dataset, and save the new dataset to `data/clean_data.csv`.
+
+### 3. Choosing Features
+
+Run the command
+
+```bash
+make choose_feature
+```
+
+or
+
+```bash
+python run.py choose_feature
+```
+
+to create a dataset for model training. Seven features with highest correlations to the response variable are selected to build the model. Selected dataset is saved to `data/model_data.csv`.
+
+### 4. Training Model
+
+Run the command
+
+```bash
+make train_data
+```
+
+or
+
+```bash
+python run.py train_data
+```
+
+to build models for player data. Methods can be chosen from `logistic_regression`, `random_forest` and `decision_tree`. Empirically, `decision_tree` has the highest accuracy and `logistic_regression` has the lowest. Trained model will be saved to `models/model.pkl` for prediction.
+
+
+### 5. Evaluating Model
+
+Run the command
+
+```bash
+make evaluate_model
+```
+
+or
+
+```bash
+python run.py evaluate_model
+```
+
+to measure the accuracy of the model. Confusion matrix and misclassification rate are used to evaluate the model. Results will be saved to `models/evaluation.txt`
+
+## Setting Database
+
+### 1. Initializing Database
+
+Database location is configured in `config/flask_config.py`. There are two ways to initialize the database with one initial player entry.
+
+**Please make sure that you are on your own EC2 instance with RDS correctly configured if a RDS schema is needed from now on.**
+
+#### With `python`
+
+To initialize a database locally, run command line:
+
+```bash
+python run.py create_db --RDS False
+```
+
+To initialize a database on RDS, run command line:
+
+```bash
+python run.py create_db --RDS True
+```
+
+#### With `make`
+
+To initialize a database locally, run command line:
+
+```bash
+make create_db_l
+```
+
+To initialize a database on RDS, run command line:
+
+```bash
+make create_db_r
+```
+
+At this stage, the database is initialized with one observation. However, this observation still lacks the response variable in the model building part, which will be added in the ingesting data part.
+
+### 2. Ingesting New Data Entry with Response Variable
+
+By ingesting a new data entry, the model will calculate the response according to input, and save response together with inputs to the database.
+
+#### With `Python`
+
+```bash
+python run.py ingest_data --Value <Value> --Reactions <Reactions> --Composure <Composure> --Age <Age> --ShortPassing <ShortPassing> --Vision <Vision> --LongPassing <LongPassing> --RDS <RDS>
+```
+
+to with RDS equals `True` or `False` to indicate whether to ingest data into RDS table.
+
+#### With `make`
+
+run the command
+
+```bash
+make create_db_l
+```
+or
+```bash
+make create_db_l
+```
+
+to ingest data to local database or RDS table respectively.
+
+## Running Flask APP
+
+
+### 1. Setting Default Database
+
+#### Local as Default
+
+Run the command 
+
+```bash
+export SQLALCHEMY_DATABASE_URI='sqlite:///data/PredHist.db'
+```
+
+**The database path should be the same as the database path you set during initialization. To change local database path, please change the `engine_string` part in the `create_db` session in `run.py`.** 
+
+
+Or, run the command line:
+
+```bash
+make set_db
+```
+
+#### RDS as Default
+
+Run the command 
+
+```bash
+export SQLALCHEMY_DATABASE_URI="{conn_type}://{user}:{password}@{host}:{port}/{DATABASE_NAME}"
+```
+
+**Note: Please make sure again that RDS is configured correctly on your EC2 instance.**
+
+### 2. Running the APP
+
+Run the command 
+
+```bash
+python run.py app
+```
+
+to start the APP. The website is available on `<Instance IPv4 Public IP>:PORT` for EC2 and `<HOST>:PORT` locally. PORT and HOST can be changed if further distribution is made.
 
 ## Testing
-All test files are in `test` folder
+
+All test files are in `test` folder. Run the command
+
+```bash
+make test
+ ``` 
+ 
+or
+
 ```bash
  py.test
  ``` 
+ 
+ to test whether data loading and model training are correct. 
+ 
+💡Note: when encountering the error of
 
-## Project Charter 
+```ruby
+ImportError while importing test module '/home/ubuntu/MSiA423-Project-Repo/test/test_model.py'.
 
-### Vision
+Hint: make sure your test modules/packages have valid Python names.
 
-The product is a web APP which provides a transparent and accurate tool for virtual soccer teams founders in any soccer video game to predict overall scores of players in their teams, as well as to find players right for their teams.
+Traceback:
 
-### Mission
+test/test_model.py:1: in <module>
 
-Accuracy and transparency are product goals.
+import yaml
 
-**Accuracy**
+E ImportError: No module named yaml
+```
+If `make` command is used to create virtual environment, please try another method for environment setting fo finish the test.
 
-The product enables users to predict overall scores for players in their teams based on combinations on different input attributes, which includes: age, weight, strength, stamina, shot power, etc.
+## Cleaning
 
-According to the predicted score, the product produces recommendations of players different positions to users.
+### 1. Cleaning Middle Files
 
-**Transparency**
+**Note: Testing is not available after cleaning middle files.**
 
-Users are available to monitor the process of prediction and recommendation when using the product. All scores, positions of players will be displayed.
+All middle files include `data/clean_data.csv`, `data/model_data.csv`, `data/xtest.csv`, and `data/ytest.csv` . Run the command
 
-### Success criteria 
+```bash
+make clean
+```
+to delete all these files.
 
-**ML Metric**: 
+In addition, futile files such as `*.pyc`  are generating during the process, run the command
 
-- Less than 10 of Mean Squared Error to predict  scores of players
+```bash
+make clean-pyc
+```
 
-- More than 0.7 of R-Squared for the final model
+to delete this type of files.
 
-**Business Metric**: 
+### 2. Cleaning Virtual Environment
 
-- 80% of users select recommended players as members of their teams.
+If the environment is created with `make`, run the command
 
-- $100,000 of yearly revenue generated by payed service and advertisements.
+```bash
+make clean-env
+```
 
-- 3000 active users after first year run of the product
+to delete the environment.
 
-- 0.8 Click Through Rate for users who open the product
+If the environment is created with `conda`, run the command
 
-## Project Planning
+```bash
+conda env remove -n cbest
+```
 
-### Theme
+to remove the environment.
 
-The theme of this product is to help users easily predict overall player scores and choose the best player for their virtual soccer teams.
+*This step is optional.*
 
-### Epics
-
-- Epic 1: Exploratory Data Analysis
-
-    The dataset contains information on 18,207 players. Each player has unique ID and name with 85 attributes. The response variable is overall score and the rest of the attributes are possible independent variables. Overall description of the data includes following categories.
-
-  * Story 1: Data Overview
-
-    + Descriptive Statistics
-    
-        Construct a summary on the data, including total count of observations, minimum value, maximum value, mean and median for each attribute.
-        
-    +  Skewness
-    
-        Draw histograms for all attributes with numerical values to see the skewness. For models that require normal distribution, log transform attributes that are left or right skewed.
-      
-    + Influential Observations
-    
-        Check all observations with extreme values, for example, observations with some attributes of lower than 0 or larger than 100.
-
-  * Story 2: Data Cleaning
-      
-      + NAs Removing
-       
-         Remove observations having NA values for selected variables. 
-         
-      + Duplicates Removing
-        
-        Remove duplicated observations, which are defined as observations sharing the same unique player ID.
-        
-      + Outliers Removing
-      
-        Remove all abnormal observations that could have impact on parameters of the model.
-      
-      + Invalid Attributes Removing
-     
-        Remove attributes that will not be selected to build models, such as player ID, player photo, player nationality, player club and club logo.
-
-- Epic 2: Model Building
-
-  Using the given dataset, find the best model to predict player scores and recommend players.
-  
-  * Story 1: Model Fitting
-
-    Randomly split the dataset into training set and test set with proportions of 80% and 20% respectively. Use training set to fit multiple models to predict scores of players, including both linear and non-linear models. 
-
-    +  Linear Regression
-    + Neural Network
-    + Random Forest
-    + Support Vector Machine
-  
-  * Story 2: Model Comparison  
-  
-    MSE is the common measurement of performances for all models listed above. After running a 10-fold cross validation for 10-times, the model with the lowest mean MSE will be selected as the final model deployed in the product.
-
-- Epic 3: Product Building
-
-  * Story 1: Web APP Building  
-   
-    + Build pipelines
-    + Realize all functions of the web APP
-  
-  * Story 2: Local to AWS Transition
-   
-    + Link different parts of the web APP together
-    + Move dataset and models to AWS
-
-- Epic 4: Product Refinement
-
-  * Story 1: Product Test  
-    
-    Use sample data to test the feasibility of the product, including:
-    
-      + Accuracy of prediction model
-      + Accuracy of recommendation system
-      + Work flow of the product
-      + Work speed of the product
-
-  * Story 2: Product Refinement
-  
-    Find drawbacks of the product and propose possible refinements correspondingly.
-
-  * Story 3: Product Summary
-  
-    Write instructions of the product and the final report of the project.
-
-## Backlog
-
-1. Theme.Epic1.Story1: Data Overview (2 points) - PLANNED
-2. Theme.Epic1.Story2: Data Cleaning (2 points) - PLANNED
-3. Theme.Epic2.Story1: Model Fitting (4 points) - PLANNED
-4. Theme.Epic2.Story2: Model Comparison (4 points) PLANNED
-5. Theme.Epic3.Story1: Web APP Building (8 points)
-6. Theme.Epic3.Story2: Local to AWS Transition (8 points)
-7. Theme.Epic4.Story1: Product Test (4 points)
-8. Theme.Epic4.Story2: Product Refinement (4 points)
-9. Theme.Epic4.Story3: Product Summary (8 points)
-
-## Icebox
-
-1. Theme.Epic2.Story1: Model Fitting 
-2. Theme.Epic3.Story1: Web APP Building
-3. Theme.Epic4.Story2: Product Refinement
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODMyMTg5NDEsLTI3NjQ2NjAzNCwtMj
-k5MTkwNTY2LC01MTM2MjczNTMsMjc3MTEwNzcxLDYwNDY1NzA3
-NiwtODQzNTMxMTk1LDYxNzU3Mjg2MCwyMDMzMzc2NTU1LC0yNT
-k5MTMyMDcsLTgyMzEzMDM5NSwtOTM3OTQ0MCw4MDM5ODQ2ODMs
-MTc3NTgwNjM1MCw4NDkzMTc4OTQsMTI1MjYzNjY1NywxOTg2ND
-g3Mjk4LC0xNzA4ODI3NDA5LDEwMzQzMTYzMDcsNTEwMTc0NDI1
-XX0=
--->
+*Template of website is from [https://colorlib.com/](https://colorlib.com/)*

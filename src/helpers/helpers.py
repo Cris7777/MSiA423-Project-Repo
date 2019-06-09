@@ -1,51 +1,40 @@
 import datetime
+import sqlalchemy
+import yaml
+from sqlalchemy.orm import sessionmaker
+import logging
+import os
+import sqlalchemy as sql
 
+logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+                        format="%(asctime)-15s %(levelname)-8s %(message)s")
+logger = logging.getLogger(__name__)
 
-class Timer:
-    """Times the code within the with statement and logs the elapsed time when it closes.
+def get_connection():
+    conn_type = "mysql+pymysql"
+    user = os.environ.get("MYSQL_USER")
+    password = os.environ.get("MYSQL_PASSWORD")
+    host = os.environ.get("MYSQL_HOST")
+    port = os.environ.get("MYSQL_PORT")
+    DATABASE_NAME = 'msia423'   
+    SQLALCHEMY_DATABASE_URI = "{}://{}:{}@{}:{}/{}".format(conn_type, user, password, host, port, DATABASE_NAME)
+    return SQLALCHEMY_DATABASE_URI
 
-           Args:
-               function (string): Name of function being timed
-               logger (obj:`logging.logger`): Logger to have elapsed time logged to
-   """
-    def __init__(self, function, logger):
-        self.logger = logger
-        self.function = function
-
-    def __enter__(self):
-        self.start = datetime.datetime.now()
-
-        return self
-
-    def __exit__(self, *args):
-        self.end = datetime.datetime.now()
-        self.interval = self.end - self.start
-        self.logger.info("%s took %0.2f seconds", self.function, self.interval.total_seconds())
-
-
-def format_sql(sql, replace_sqlvar=None, replace_var=None, python=True):
-    """Formats SQL query string for Python interpretation and with variables replaced.
-
-    Args:
-        sql (string): String with SQL query
-        replace_sqlvar (dict, optional): If given, replaces variables of the format ${var:dict-key} with the value
-            in the dictionary corresponding to that dict-key.
-        replace_var (dict, optional): If given, replaces variables of the format {dict-key} with the value
-            in the dictionary corresponding to that dict-key.
-        python: If True, formats the query to be passed into a Python SQL querying function by replacing "%" with
-            "%%" since % is a special character in Python
-
-    Returns: string of SQL query with variables replaced and optionally formatted for Python
-
+def get_session(engine_string = None):
     """
-    if replace_sqlvar is not None:
-        for var in replace_sqlvar:
-            sql = sql.replace("${var:%s}" % var, replace_sqlvar[var])
+    Args:
+        engine_string: SQLAlchemy connection string in the form of:
+            "{sqltype}://{username}:{password}@{host}:{port}/{database}"
+    Returns:
+        SQLAlchemy session
+    """
 
-    if replace_var is not None:
-        sql = sql.format(**replace_var)
+    if engine_string is None:
+        return ValueError("engine_string` must be provided")
+    engine = sql.create_engine(engine_string)
+    Session = sessionmaker(bind=engine)
+    session = Session()
 
-    if python:
-        sql = sql.replace("%", "%%")
+    return session
 
-    return sql
+
