@@ -10,6 +10,12 @@ logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
 logger = logging.getLogger(__name__)
 
 def generate_class(df, target = None, response = None, **kwargs):
+    '''
+    df: data
+    target: column used to generate binary response
+    response: binary classes
+    returns: pandas dataframe with response variable generated
+    '''
     classification = []
     median = statistics.median(df[target])
     for score in df[target]:
@@ -22,6 +28,9 @@ def generate_class(df, target = None, response = None, **kwargs):
     return df
 
 def clean_data(df, drop = None, **kwargs):
+    '''
+    function to drop the column used to generate binary response
+    '''
     model = df.drop(columns = drop)
     return model
 

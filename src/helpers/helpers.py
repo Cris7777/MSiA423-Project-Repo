@@ -11,6 +11,7 @@ logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
 logger = logging.getLogger(__name__)
 
 def get_connection():
+    '''function to return RDS database engine string'''
     conn_type = "mysql+pymysql"
     user = os.environ.get("MYSQL_USER")
     password = os.environ.get("MYSQL_PASSWORD")

@@ -15,6 +15,12 @@ logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
 logger = logging.getLogger(__name__)
 
 def evaluate_model(modelpath = None, xtestpath = None, ytestpath = None, **kwargs):
+    '''
+    modelpath: path to save trained model
+    xtestpath: path to xtest.csv
+    ytestpath: path to ytest.csv
+    returns: mislcassification rate and confusion matrix of the model
+    '''
     with open(modelpath, "rb") as f:
         model = pickle.load(f)
 

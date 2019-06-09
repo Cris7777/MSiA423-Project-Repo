@@ -17,6 +17,14 @@ methods = dict(logistic_regression = LogisticRegression,
                decision_tree = DecisionTreeClassifier)
 
 def split_data(path = None, test_size = None, target = None, **kwargs):
+    '''
+    function to split data to train set and test set
+    path: path where data with response variable is saved
+    test_size: percentage of test size
+    target: response variable
+    returns: a trained model among logistic regression, random forest and decision tree
+    '''
+
     model = pd.read_csv(path)
 
     y = model[target]

@@ -9,6 +9,11 @@ logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
 logger = logging.getLogger(__name__)
 
 def select_feature(path = None, target = None, **kwargs):
+    '''
+    path: input path of data
+    target: name of response
+    returns: a dafaframe and a list of powerful predictors
+    '''
     model = pd.read_csv(path)
     predictor = model.corr().abs().unstack()[target].sort_values(ascending = False)[:8]
     predictor = list(predictor.index)

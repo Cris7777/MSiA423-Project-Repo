@@ -11,16 +11,33 @@ logger = logging.getLogger(__name__)
 #logger = logging.getLogger('load_data')
 
 def read_data(path = None, **kwargs):
+    '''
+    function to load data into repo
+    path: path to raw data
+    returns: None
+    '''
+
     url = 'https://raw.githubusercontent.com/Cris7777/MSiA423_data/master/data1.csv'
     df = pd.read_csv(url, index_col=0)
     df.to_csv(path)
     logger.info('data saved to %s', path)
 
 def upload_data(input_path = None, bucket_name = None, output_path = None, **kwargs):
+    '''
+    function to upload data to s3 bucket
+    input_path: path where data is saved locally
+    bucket_name: name of your own s3 bucket
+    output_path: path where data will be saved in s3
+    '''
     s3 = boto3.client('s3')
     s3.upload_file(input_path, bucket_name, output_path)
 
 def load_csv(path = None, **kwargs):
+    '''
+    function to read data
+    path: path where data is saved locally
+    returns: a pandas dataframe
+    '''
     df = pd.read_csv(path, header = 0)
     logger.info('data read from %s', path)
     return df
