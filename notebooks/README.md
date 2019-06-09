@@ -45,8 +45,8 @@ To keep this table of contents when you export to html, add to the command in th
 There are a lot more options so take a look through! 
 
 ## Template Jupyter Notebook 
-`template.ipynb` is a template Jupyter notebook that includes:
- * A set of regularly used package imports 
- * Code that helps reference other parts of the directory structure (e.g. `dataplus()` prepends the data directory for data import)
- * Code that sets up a SQLAlchemy connection to MySQL 
- * Headings for stating notebook objectives, guiding questions, conclusions 
+`EDA and Model Training.ipynb` is a template Jupyter notebook that includes:
+ * EDA on data distribution and skewness
+ * Code that implements Cross Validation to find best model parameters
+ * Code that fits different models to data
+ * Summary of variable importance and model comparison
