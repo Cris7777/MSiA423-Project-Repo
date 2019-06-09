@@ -11,7 +11,7 @@ import pickle
 import sys
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('evaluate_model')
+logger = logging.getLogger()
 
 def evaluate_model(modelpath = None, xtestpath = None, ytestpath = None, **kwargs):
     '''

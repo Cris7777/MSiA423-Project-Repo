@@ -5,7 +5,7 @@ import logging
 from src.load_data import load_csv
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('choose_features')
+logger = logging.getLogger()
 
 def select_feature(path = None, target = None, **kwargs):
     '''

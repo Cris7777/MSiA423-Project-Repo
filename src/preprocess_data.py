@@ -6,7 +6,7 @@ import statistics
 from src.load_data import load_csv
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('preprocess_data')
+logger = logging.getLogger()
 
 def generate_class(df, target = None, response = None, **kwargs):
     '''

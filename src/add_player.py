@@ -10,7 +10,7 @@ import pickle
 from src.helpers.helpers import get_session, get_connection
 
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('add_database')
+logger = logging.getLogger()
 
 Base = declarative_base()
 

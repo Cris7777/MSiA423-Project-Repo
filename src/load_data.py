@@ -8,7 +8,7 @@ import boto3
 #                         format="%(asctime)-15s %(levelname)-8s %(message)s")
 # logger = logging.getLogger(__name__)
 logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-logger = logging.getLogger('load_data')
+logger = logging.getLogger()
 
 def read_data(path = None, **kwargs):
     '''
