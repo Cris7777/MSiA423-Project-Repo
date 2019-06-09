@@ -4,11 +4,11 @@ import argparse
 import logging
 import boto3
 
-logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
-                        format="%(asctime)-15s %(levelname)-8s %(message)s")
-logger = logging.getLogger(__name__)
-#logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
-#logger = logging.getLogger('load_data')
+# logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
+#                         format="%(asctime)-15s %(levelname)-8s %(message)s")
+# logger = logging.getLogger(__name__)
+logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
+logger = logging.getLogger('load_data')
 
 def read_data(path = None, **kwargs):
     '''
@@ -31,6 +31,7 @@ def upload_data(input_path = None, bucket_name = None, output_path = None, **kwa
     '''
     s3 = boto3.client('s3')
     s3.upload_file(input_path, bucket_name, output_path)
+    logger.info('data uploaded to s3 bucket')
 
 def load_csv(path = None, **kwargs):
     '''

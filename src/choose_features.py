@@ -4,9 +4,8 @@ import argparse
 import logging
 from src.load_data import load_csv
 
-logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
-                        format="%(asctime)-15s %(levelname)-8s %(message)s")
-logger = logging.getLogger(__name__)
+logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
+logger = logging.getLogger('choose_features')
 
 def select_feature(path = None, target = None, **kwargs):
     '''

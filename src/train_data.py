@@ -8,9 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 import pickle
 
-logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
-                        format="%(asctime)-15s %(levelname)-8s %(message)s")
-logger = logging.getLogger(__name__)
+logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
+logger = logging.getLogger('train_data')
 
 methods = dict(logistic_regression = LogisticRegression,
                random_forest = RandomForestClassifier,

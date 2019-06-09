@@ -5,9 +5,8 @@ import logging
 import statistics
 from src.load_data import load_csv
 
-logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
-                        format="%(asctime)-15s %(levelname)-8s %(message)s")
-logger = logging.getLogger(__name__)
+logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
+logger = logging.getLogger('preprocess_data')
 
 def generate_class(df, target = None, response = None, **kwargs):
     '''
@@ -32,6 +31,7 @@ def clean_data(df, drop = None, **kwargs):
     function to drop the column used to generate binary response
     '''
     model = df.drop(columns = drop)
+    logger.info('column for generating response dropped')
     return model
 
 def run_class(args):

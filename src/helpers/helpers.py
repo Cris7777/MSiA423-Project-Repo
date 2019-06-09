@@ -6,9 +6,8 @@ import logging
 import os
 import sqlalchemy as sql
 
-logging.basicConfig(level=logging.DEBUG, filename="logfile", filemode="a+",
-                        format="%(asctime)-15s %(levelname)-8s %(message)s")
-logger = logging.getLogger(__name__)
+logging.basicConfig(level = logging.DEBUG, format = '%(name)-12s %(levelname)-8s %(message)s')
+logger = logging.getLogger('helpers')
 
 def get_connection():
     '''function to return RDS database engine string'''
