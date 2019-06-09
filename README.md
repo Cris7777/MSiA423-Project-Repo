@@ -98,6 +98,8 @@ python run.py load_data
 
 to load data into the repository and upload data to your own S3 bucket. Data will be landed to `data/data.csv` by default.
 
+*Note: Please change your s3 bucket name in `config/config.yml` to upload data.*
+
 ### 2. Preprocessing Data
 
 Run the command
